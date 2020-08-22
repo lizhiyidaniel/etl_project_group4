@@ -1,0 +1,254 @@
+,Value,city
+177,22.8,Atlanta
+178,17.9,Atlanta
+179,25.4,Atlanta
+180,16.6,Atlanta
+181,23.7,Atlanta
+182,29.0,Atlanta
+183,21.8,Atlanta
+184,28.7,Atlanta
+185,19.9,Atlanta
+186,34.8,Atlanta
+187,26.6,Atlanta
+188,37.9,Atlanta
+189,9.7,Atlanta
+190,13.1,Atlanta
+191,15.3,Atlanta
+390,29.2,Baltimore
+391,32.8,Baltimore
+392,25.1,Baltimore
+393,37.3,Baltimore
+394,39.4,Baltimore
+395,35.0,Baltimore
+396,30.7,Baltimore
+397,34.2,Baltimore
+398,27.0,Baltimore
+399,32.8,Baltimore
+400,46.4,Baltimore
+401,38.2,Baltimore
+402,25.4,Baltimore
+404,25.3,Baltimore
+405,18.1,Baltimore
+800,20.2,Boston
+801,23.1,Boston
+802,21.7,Boston
+803,19.3,Boston
+804,21.3,Boston
+806,20.3,Boston
+807,15.3,Boston
+808,33.0,Boston
+809,32.3,Boston
+810,27.3,Boston
+811,28.5,Boston
+812,16.2,Boston
+813,15.5,Boston
+1348,24.6,Chicago
+1349,31.4,Chicago
+1350,31.4,Chicago
+1351,31.4,Chicago
+1352,20.5,Chicago
+1353,28.4,Chicago
+1354,35.4,Chicago
+1355,35.5,Chicago
+1356,24.2,Chicago
+1357,29.2,Chicago
+1358,31.8,Chicago
+1359,17.1,Chicago
+2304,21.1,Denver
+2313,16.1,Denver
+2314,24.1,Denver
+2315,19.8,Denver
+2316,18.8,Denver
+2317,19.3,Denver
+2318,19.1,Denver
+2319,21.1,Denver
+2320,21.1,Denver
+2321,27.8,Denver
+2322,27.8,Denver
+2323,40.1,Denver
+2324,28.4,Denver
+2325,27.2,Denver
+2326,28.1,Denver
+2327,14.0,Denver
+2328,13.4,Denver
+2329,13.5,Denver
+2867,39.7,Detroit
+2868,39.3,Detroit
+2869,47.2,Detroit
+2870,33.9,Detroit
+3167,29.4,Fort Worth
+3168,29.2,Fort Worth
+3169,33.6,Fort Worth
+3530,30.6,Houston
+3531,29.7,Houston
+3532,31.5,Houston
+3533,38.7,Houston
+3534,26.4,Houston
+4343,27.6,Las Vegas
+4344,27.1,Las Vegas
+4345,27.5,Las Vegas
+4346,35.4,Las Vegas
+4347,27.5,Las Vegas
+4348,21.9,Las Vegas
+4349,27.1,Las Vegas
+4892,18.9,Los Angeles
+4893,24.5,Los Angeles
+4894,21.6,Los Angeles
+4895,6.8,Los Angeles
+4896,29.2,Los Angeles
+4897,29.0,Los Angeles
+4898,14.8,Los Angeles
+5568,29.3,Miami
+5604,20.2,Miami
+5605,27.2,Miami
+5606,23.8,Miami
+5607,34.1,Miami
+5608,24.8,Miami
+5610,28.2,Miami
+5611,38.2,Miami
+5612,25.6,Miami
+5613,30.6,Miami
+5614,14.0,Miami
+5615,25.3,Miami
+6204,20.9,Minneapolis
+6205,21.7,Minneapolis
+6688,23.7,New York
+6689,25.6,New York
+6690,21.3,New York
+6691,24.2,New York
+6693,27.2,New York
+6694,20.7,New York
+6695,23.4,New York
+6696,24.6,New York
+6697,21.9,New York
+6698,9.1,New York
+6699,10.3,New York
+6700,10.2,New York
+6702,33.3,New York
+6703,34.2,New York
+6704,30.9,New York
+6705,29.5,New York
+6706,29.3,New York
+6707,30.8,New York
+6708,26.5,New York
+6709,23.3,New York
+6711,20.9,New York
+6712,17.9,New York
+6713,18.7,New York
+6714,19.2,New York
+7167,18.9,Oakland
+7168,21.0,Oakland
+7169,22.9,Oakland
+7170,43.1,Oakland
+7171,26.6,Oakland
+7172,21.6,Oakland
+7478,32.4,Philadelphia
+7519,33.5,Philadelphia
+7520,25.3,Philadelphia
+7521,37.4,Philadelphia
+7522,31.9,Philadelphia
+7523,29.3,Philadelphia
+7524,34.4,Philadelphia
+7525,32.2,Philadelphia
+7526,40.2,Philadelphia
+7527,41.8,Philadelphia
+7528,38.4,Philadelphia
+7529,32.4,Philadelphia
+7530,35.9,Philadelphia
+7531,29.3,Philadelphia
+7532,24.8,Philadelphia
+7533,26.8,Philadelphia
+8303,25.3,Phoenix
+8304,23.7,Phoenix
+8305,24.5,Phoenix
+8307,26.1,Phoenix
+8308,24.6,Phoenix
+8309,25.4,Phoenix
+8310,25.8,Phoenix
+8311,25.2,Phoenix
+8312,24.6,Phoenix
+8313,32.5,Phoenix
+8314,37.0,Phoenix
+8315,34.1,Phoenix
+8316,33.8,Phoenix
+8317,35.4,Phoenix
+8318,20.3,Phoenix
+8319,22.1,Phoenix
+8320,21.5,Phoenix
+9827,34.7,San Antonio
+9873,36.1,San Antonio
+9874,33.3,San Antonio
+9875,41.0,San Antonio
+9876,24.2,San Antonio
+10335,27.7,San Diego
+10342,28.4,San Diego
+10349,20.2,San Diego
+10374,20.1,San Diego
+10392,26.1,San Diego
+10393,24.1,San Diego
+10394,22.7,San Diego
+10395,21.4,San Diego
+10396,22.3,San Diego
+10870,17.0,Seattle
+10886,22.0,San Jose
+10887,22.0,San Jose
+10888,22.0,San Jose
+10889,8.0,San Jose
+10890,27.0,San Jose
+10891,36.0,San Jose
+10892,23.0,San Jose
+11138,26.0,Seattle
+11225,23.0,Seattle
+11249,20.0,Seattle
+11322,25.0,Seattle
+11391,22.0,Seattle
+11393,22.0,Seattle
+11394,23.0,Seattle
+11395,20.0,Seattle
+11396,17.0,Seattle
+11397,21.0,Seattle
+11398,10.0,Seattle
+11399,10.0,Seattle
+11400,11.0,Seattle
+11401,34.0,Seattle
+11402,34.0,Seattle
+11403,34.0,Seattle
+11404,24.0,Seattle
+11405,27.0,Seattle
+11406,51.0,Seattle
+11407,15.0,Seattle
+11408,16.0,Seattle
+11409,19.0,Seattle
+11410,23.0,Seattle
+11411,22.0,Seattle
+11412,22.0,Seattle
+12028,34.9,U.S. Total
+12029,36.1,U.S. Total
+12030,33.5,U.S. Total
+12031,47.8,U.S. Total
+12032,42.5,U.S. Total
+12033,32.6,U.S. Total
+12535,22.9,Washington
+12536,17.9,Washington
+12537,25.5,Washington
+12538,21.9,Washington
+12539,18.6,Washington
+12540,28.4,Washington
+12541,23.8,Washington
+12542,20.6,Washington
+12543,24.9,Washington
+12544,36.4,Washington
+12545,33.7,Washington
+12546,36.7,Washington
+12547,15.3,Washington
+12548,25.0,Washington
+12549,13.3,Washington
+12550,32.2,Washington
+12551,34.2,Washington
+12552,16.7,Washington
+12553,12.2,Washington
+12554,9.6,Washington
+12555,10.7,Washington
+12556,9.8,Washington
+13281,22.8,Long Beach
+13306,26.2,Long Beach
