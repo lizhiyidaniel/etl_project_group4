@@ -10,4 +10,3 @@ CREATE TABLE expectancy (
     city TEXT PRIMARY KEY,
     life_expectancy FLOAT
 );
-
