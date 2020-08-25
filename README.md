@@ -26,6 +26,6 @@ Location: Jays-folder
 
 Presention:
 
-The PDF file 
+The PDF file called: 8.19.20 UCSD ETL Group 4 - Jay,John, Zhiyi.pdf
 
 Location: master branch 
