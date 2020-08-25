@@ -1,0 +1,2788 @@
+,city,number_fastfood
+0,Columbus,105
+1,Indianapolis,94
+2,Birmingham,69
+3,Cincinnati,60
+4,Dayton,59
+5,Cleveland,57
+6,Spokane,56
+7,Las Vegas,55
+8,Portland,54
+9,Columbia,51
+10,Miami,49
+11,San Jose,48
+12,Greenville,42
+13,Charlotte,42
+14,Springfield,38
+15,Fayetteville,37
+16,Clarksville,37
+17,Fort Lauderdale,37
+18,Greensboro,36
+19,Canton,35
+20,Houston,35
+21,Honolulu,35
+22,Sacramento,34
+23,Florence,33
+24,Tampa,33
+25,Phoenix,33
+26,Huntsville,32
+27,Chicago,32
+28,Eugene,32
+29,Auburn,31
+30,Decatur,31
+31,Jacksonville,31
+32,Tucson,31
+33,Akron,30
+34,Oklahoma City,30
+35,West Palm Beach,30
+36,Franklin,29
+37,Montgomery,28
+38,Charleston,28
+39,Salem,27
+40,Richmond,27
+41,Washington,27
+42,Saint Louis,27
+43,Denver,27
+44,Madison,26
+45,Seattle,26
+46,Raleigh,26
+47,Tuscaloosa,26
+48,Alexandria,25
+49,Toledo,25
+50,Greenwood,25
+51,Anchorage,24
+52,Roanoke,24
+53,Mobile,24
+54,Lexington,24
+55,Winston-Salem,24
+56,Dothan,23
+57,Kansas City,22
+58,Louisville,22
+59,Anderson,22
+60,Mesa,21
+61,Orlando,21
+62,Elkhart,21
+63,Jackson,21
+64,El Paso,20
+65,Burlington,20
+66,Gadsden,20
+67,Lafayette,20
+68,Vancouver,20
+69,Los Angeles,20
+70,Salisbury,20
+71,Boca Raton,19
+72,Colorado Springs,19
+73,Bradenton,19
+74,Ocala,19
+75,Durham,19
+76,Lancaster,19
+77,Athens,18
+78,Cape Coral,18
+79,Chesapeake,18
+80,Wilmington,18
+81,Marion,18
+82,Myrtle Beach,17
+83,Albuquerque,17
+84,Albany,17
+85,Little Rock,17
+86,Asheville,17
+87,Virginia Beach,17
+88,Cary,17
+89,Youngstown,16
+90,Brandon,16
+91,Danville,16
+92,Lebanon,16
+93,Spartanburg,16
+94,Saint Petersburg,16
+95,Fort Myers,16
+96,Portsmouth,15
+97,Baton Rouge,15
+98,Troy,15
+99,Philadelphia,15
+100,Lakeland,15
+101,Oxford,15
+102,North Charleston,15
+103,Omaha,15
+104,Kent,15
+105,Santa Rosa,15
+106,Carmel,15
+107,Jasper,14
+108,Monroe,14
+109,Dublin,14
+110,Goshen,14
+111,Bakersfield,14
+112,Olympia,14
+113,Merrillville,14
+114,Dallas,14
+115,Concord,14
+116,Macon,14
+117,Clinton,14
+118,Tulsa,14
+119,Huntington,14
+120,San Antonio,14
+121,Hammond,14
+122,Boynton Beach,13
+123,Atlanta,13
+124,Warren,13
+125,Fort Pierce,13
+126,Beaverton,13
+127,Portage,13
+128,Henderson,13
+129,Winter Haven,13
+130,Memphis,13
+131,Blacksburg,13
+132,Salt Lake City,13
+133,Norfolk,13
+134,San Diego,13
+135,Minneapolis,12
+136,Mount Pleasant,12
+137,Brentwood,12
+138,Newark,12
+139,Knoxville,12
+140,Wichita,12
+141,Pittsburgh,12
+142,Gary,12
+143,Bronx,12
+144,Bessemer,12
+145,Valparaiso,12
+146,Bellevue,12
+147,Pullman,12
+148,Arlington,12
+149,Chico,12
+150,Highland,12
+151,Boise,12
+152,Clearwater,12
+153,Nashville,12
+154,Naples,12
+155,Hampton,12
+156,Austin,11
+157,Medford,11
+158,Glendale,11
+159,Mishawaka,11
+160,Plainfield,11
+161,Saint Paul,11
+162,Everett,11
+163,Newport News,11
+164,Lincoln,11
+165,Gainesville,11
+166,Bowling Green,11
+167,Milwaukee,11
+168,Wasilla,11
+169,Saint Charles,11
+170,Tempe,11
+171,Longview,11
+172,Gastonia,11
+173,Shreveport,11
+174,Fort Wayne,11
+175,Marysville,11
+176,Eureka,11
+177,Tallahassee,11
+178,Yakima,11
+179,Lodi,10
+180,Hilo,10
+181,Largo,10
+182,Tacoma,10
+183,Fremont,10
+184,Grants Pass,10
+185,Aurora,10
+186,Grove City,10
+187,Middletown,10
+188,Evansville,10
+189,Reno,10
+190,Chapel Hill,10
+191,Cullman,10
+192,Federal Way,10
+193,Conway,10
+194,Hickory,10
+195,Lakewood,10
+196,Martinsburg,10
+197,New Orleans,10
+198,Kalamazoo,10
+199,Antioch,10
+200,Fairbanks,10
+201,Davenport,9
+202,Garden City,9
+203,Roseburg,9
+204,Savannah,9
+205,Port Saint Lucie,9
+206,Brooklyn,9
+207,Long Beach,9
+208,Henrico,9
+209,Sarasota,9
+210,Buffalo,9
+211,Hendersonville,9
+212,Prattville,9
+213,Medina,9
+214,Covington,9
+215,Harrisburg,9
+216,Suffolk,9
+217,Pueblo,9
+218,Meridian,9
+219,San Francisco,9
+220,Puyallup,9
+221,Bridgeport,9
+222,Rochester,9
+223,Fairfield,9
+224,West Chester,9
+225,Anaheim,9
+226,Kissimmee,9
+227,Beckley,9
+228,Mount Vernon,9
+229,Opelika,9
+230,Kennewick,9
+231,Hillsboro,9
+232,New York,9
+233,Ashland,9
+234,Foley,9
+235,Farmington,9
+236,York,9
+237,Alabaster,9
+238,Lake Wales,9
+239,Waterloo,9
+240,Renton,8
+241,La Grande,8
+242,Edmond,8
+243,Lubbock,8
+244,Warrenton,8
+245,Modesto,8
+246,Redmond,8
+247,Corpus Christi,8
+248,Brunswick,8
+249,Brownsburg,8
+250,Pendleton,8
+251,Nampa,8
+252,Lynchburg,8
+253,Merced,8
+254,Lynnwood,8
+255,Avon,8
+256,Cambridge,8
+257,Daytona Beach,8
+258,West Columbia,8
+259,Huntington Beach,8
+260,Newton,8
+261,Flint,8
+262,Elk Grove,8
+263,Independence,8
+264,Gresham,8
+265,Grand Junction,8
+266,Clemson,8
+267,Chesterfield,8
+268,Chula Vista,8
+269,Lake Worth,8
+270,Mentor,8
+271,Delray Beach,8
+272,Bend,8
+273,Cuyahoga Falls,8
+274,Daphne,8
+275,Vacaville,8
+276,Fresno,8
+277,Bloomington,8
+278,Morgantown,8
+279,Port Charlotte,8
+280,Fort Worth,7
+281,Olathe,7
+282,Champaign,7
+283,Corvallis,7
+284,Chandler,7
+285,Seaside,7
+286,Augusta,7
+287,Englewood,7
+288,Reynoldsburg,7
+289,Elyria,7
+290,Milford,7
+291,Anniston,7
+292,Leesburg,7
+293,Hillsborough,7
+294,Massillon,7
+295,Shawnee,7
+296,Michigan City,7
+297,Lihue,7
+298,Shelby,7
+299,Killeen,7
+300,Ontario,7
+301,Ardmore,7
+302,Roseville,7
+303,Marshall,7
+304,Summerville,7
+305,Richland,7
+306,Oakland,7
+307,New Albany,7
+308,Logan,7
+309,Broken Arrow,7
+310,Fairmont,7
+311,Peoria,7
+312,Crown Point,7
+313,Fairborn,7
+314,Syracuse,7
+315,Mooresville,7
+316,Sanford,7
+317,Laredo,7
+318,Brownsville,7
+319,Garner,7
+320,Chillicothe,7
+321,Gulf Shores,7
+322,Germantown,7
+323,San Bernardino,7
+324,Saraland,7
+325,Hialeah,7
+326,Enterprise,6
+327,Oneonta,6
+328,Wilson,6
+329,Mason,6
+330,Apex,6
+331,Round Rock,6
+332,Andalusia,6
+333,Zanesville,6
+334,Gallatin,6
+335,Martinsville,6
+336,Ellensburg,6
+337,San Mateo,6
+338,Powell,6
+339,McMinnville,6
+340,Altoona,6
+341,Arab,6
+342,Ypsilanti,6
+343,Yuba City,6
+344,Irvine,6
+345,High Point,6
+346,North Las Vegas,6
+347,Kearney,6
+348,Williamsburg,6
+349,Mesquite,6
+350,Selma,6
+351,Santa Ana,6
+352,Kannapolis,6
+353,Jonesboro,6
+354,North Canton,6
+355,Irmo,6
+356,Okeechobee,6
+357,North Myrtle Beach,6
+358,Northport,6
+359,Fairhope,6
+360,Boonville,6
+361,Weatherford,6
+362,Detroit,6
+363,Dalton,6
+364,Spring Hill,6
+365,Wenatchee,6
+366,Newport,6
+367,Weirton,6
+368,Hudson,6
+369,Littleton,6
+370,Waukegan,6
+371,Hartsville,6
+372,Dover,6
+373,Watertown,6
+374,Phenix City,6
+375,Monticello,6
+376,Sylacauga,6
+377,Pelham,6
+378,Lansing,6
+379,Brooksville,6
+380,Pensacola,6
+381,Quincy,6
+382,Brighton,6
+383,Beaumont,6
+384,Frederick,6
+385,Hanceville,6
+386,Skokie,6
+387,Kodiak,6
+388,Des Moines,6
+389,Rocky Mount,6
+390,Mansfield,6
+391,Owensboro,6
+392,Mountain Home,6
+393,Ottawa,6
+394,Slidell,6
+395,Smyrna,6
+396,Marietta,6
+397,Kokomo,6
+398,Sioux City,6
+399,Hamilton,6
+400,Petersburg,6
+401,Midland,6
+402,Goodlettsville,5
+403,Fargo,5
+404,Pasco,5
+405,Findlay,5
+406,Cumming,5
+407,Clayton,5
+408,Oak Grove,5
+409,Port Orchard,5
+410,Gilbert,5
+411,Muscle Shoals,5
+412,Georgetown,5
+413,Pasadena,5
+414,Pell City,5
+415,Roswell,5
+416,Rainsville,5
+417,North Olmsted,5
+418,Midvale,5
+419,San Angelo,5
+420,Panama City,5
+421,Oceanside,5
+422,Miami Beach,5
+423,Riverview,5
+424,Riverside,5
+425,Saint Cloud,5
+426,Cordova,5
+427,Milton,5
+428,Murfreesboro,5
+429,Pineville,5
+430,Grand Island,5
+431,Piedmont,5
+432,Rockford,5
+433,Noblesville,5
+434,Pickerington,5
+435,Daleville,5
+436,Mount Airy,5
+437,Princeton,5
+438,New Philadelphia,5
+439,Mission,5
+440,Russellville,5
+441,Ogden,5
+442,Odessa,5
+443,Daly City,5
+444,Fenton,5
+445,Rome,5
+446,Seminole,5
+447,Troutdale,5
+448,Huntersville,5
+449,Loveland,5
+450,Cape Girardeau,5
+451,Wellington,5
+452,Gulfport,5
+453,Silverdale,5
+454,West Lafayette,5
+455,Valrico,5
+456,Asheboro,5
+457,Sherwood,5
+458,West Monroe,5
+459,Klamath Falls,5
+460,Hilliard,5
+461,Utica,5
+462,Hyattsville,5
+463,Urbana,5
+464,Smithfield,5
+465,Wayne,5
+466,Texarkana,5
+467,Superior,5
+468,Waipahu,5
+469,Bellingham,5
+470,Vincennes,5
+471,Hollywood,5
+472,Calera,5
+473,Holly Springs,5
+474,Lake Charles,5
+475,Warner Robins,5
+476,Battle Creek,5
+477,Lahaina,5
+478,Las Cruces,5
+479,Laurel,5
+480,Burbank,5
+481,South Lake Tahoe,5
+482,Hobart,5
+483,Shelbyville,5
+484,Billings,5
+485,Jupiter,5
+486,Sebring,5
+487,Schererville,5
+488,Aberdeen,5
+489,Greeley,5
+490,Tifton,5
+491,Lenoir,5
+492,Kahului,5
+493,Yorktown,5
+494,Woodland,5
+495,Chester,5
+496,Tyler,5
+497,Topeka,5
+498,Cheyenne,5
+499,Chesterton,5
+500,Bossier City,5
+501,Thomasville,5
+502,Abilene,5
+503,Willoughby,5
+504,Amherst,5
+505,Livingston,5
+506,Mebane,5
+507,Lima,5
+508,Liberty,5
+509,Mauldin,5
+510,Sandusky,5
+511,Greenfield,5
+512,Bluefield,5
+513,Muscatine,4
+514,Pine Bluff,4
+515,Hermitage,4
+516,Port Richey,4
+517,Pinellas Park,4
+518,Vicksburg,4
+519,Union City,4
+520,Lawrenceburg,4
+521,Lawton,4
+522,Uniontown,4
+523,Bismarck,4
+524,Bedford,4
+525,Clanton,4
+526,Bettendorf,4
+527,Ukiah,4
+528,Des Plaines,4
+529,Plant City,4
+530,Pontiac,4
+531,Poplar Bluff,4
+532,Van Wert,4
+533,Fredericktown,4
+534,Leeds,4
+535,Pompano Beach,4
+536,Turlock,4
+537,Venice,4
+538,Dillon,4
+539,Hood River,4
+540,Citrus Heights,4
+541,Dubuque,4
+542,Woodburn,4
+543,Festus,4
+544,Kingsport,4
+545,Ferndale,4
+546,Whittier,4
+547,Wichita Falls,4
+548,Katy,4
+549,Amarillo,4
+550,Winchester,4
+551,Ocoee,4
+552,Escondido,4
+553,Española,4
+554,Alliance,4
+555,Waldorf,4
+556,Wooster,4
+557,North Fort Myers,4
+558,Joplin,4
+559,Nottingham,4
+560,Norwalk,4
+561,Evanston,4
+562,Alamogordo,4
+563,Aiken,4
+564,Jericho,4
+565,Addison,4
+566,Johnstown,4
+567,Oregon City,4
+568,Arnold,4
+569,Orland Park,4
+570,Osage Beach,4
+571,Walker,4
+572,Lake City,4
+573,Bay Shore,4
+574,Bastrop,4
+575,Fort Mill,4
+576,Easley,4
+577,LaGrange,4
+578,Barboursville,4
+579,La Vergne,4
+580,Garden Grove,4
+581,Forest City,4
+582,La Grange,4
+583,Eden,4
+584,Waverly,4
+585,Edgewood,4
+586,New Port Richey,4
+587,Newberry,4
+588,Avondale,4
+589,El Centro,4
+590,Attalla,4
+591,Astoria,4
+592,Ashtabula,4
+593,Elizabethtown,4
+594,Pascagoula,4
+595,Defiance,4
+596,Hermiston,4
+597,Shepherdsville,4
+598,Collinsville,4
+599,Goose Creek,4
+600,Colonial Heights,4
+601,Groveport,4
+602,Carthage,4
+603,Cartersville,4
+604,Silver Spring,4
+605,Rosedale,4
+606,Rolla,4
+607,Compton,4
+608,Gonzales,4
+609,Manteca,4
+610,Conover,4
+611,Conroe,4
+612,Manhattan,4
+613,South Charleston,4
+614,South Gate,4
+615,South Point,4
+616,Southgate,4
+617,Sparks,4
+618,Spring,4
+619,Riverdale,4
+620,Spring Lake,4
+621,Rio Rancho,4
+622,Stockton,4
+623,Collierville,4
+624,Shelton,4
+625,Harlingen,4
+626,Saginaw,4
+627,Christiansburg,4
+628,Melbourne,4
+629,Chippewa Falls,4
+630,Clarkston,4
+631,Santa Fe,4
+632,Sayre,4
+633,Green Bay,4
+634,Chattanooga,4
+635,Salinas,4
+636,Clermont,4
+637,Charlottesville,4
+638,Salina,4
+639,Scottsboro,4
+640,Scottsdale,4
+641,McAlester,4
+642,Saint Peters,4
+643,Sebastopol,4
+644,Grand Forks,4
+645,Saint Joseph,4
+646,Centreville,4
+647,Cedar Rapids,4
+648,Gretna,4
+649,Coeur d'Alene,4
+650,Sheboygan,4
+651,Middlebury,4
+652,Costa Mesa,4
+653,Johnson City,4
+654,Broomfield,4
+655,Hebron,4
+656,Sunnyvale,4
+657,Bristol,4
+658,Lowell,4
+659,Talladega,4
+660,The Dalles,4
+661,Provo,4
+662,Morehead City,4
+663,Hartville,4
+664,Reading,4
+665,Hazleton,4
+666,Harrison,4
+667,Rhinelander,4
+668,Bryan,4
+669,Terre Haute,4
+670,Tarboro,4
+671,Geneva,4
+672,Rainbow City,4
+673,Moreno Valley,4
+674,Tracy,4
+675,Logansport,4
+676,Montrose,4
+677,Boone,4
+678,Lufkin,4
+679,Helena,4
+680,Sullivan,4
+681,Ironton,3
+682,Grafton,3
+683,Norman,3
+684,Kenner,3
+685,Fishers,3
+686,Front Royal,3
+687,Inverness,3
+688,Kill Devil Hills,3
+689,King,3
+690,Leesville,3
+691,Kingman,3
+692,Fultondale,3
+693,Idabel,3
+694,Frisco,3
+695,Norco,3
+696,Muskegon,3
+697,Miamisburg,3
+698,Greer,3
+699,North Palm Beach,3
+700,Joliet,3
+701,Lewisville,3
+702,Fairview Heights,3
+703,Lillington,3
+704,Lewisburg,3
+705,Jensen Beach,3
+706,Morganton,3
+707,McAllen,3
+708,Gardendale,3
+709,Junction City,3
+710,Galesburg,3
+711,Jefferson,3
+712,Morristown,3
+713,Garland,3
+714,Greeneville,3
+715,Kailua,3
+716,Hazelwood,3
+717,Kalispell,3
+718,Jamaica,3
+719,Locust,3
+720,Jacksonville Beach,3
+721,Moses Lake,3
+722,Kailua Kona,3
+723,Hurricane,3
+724,Lombard,3
+725,Fort Collins,3
+726,La Porte,3
+727,Harwood Heights,3
+728,Midlothian,3
+729,Lawrence,3
+730,Nederland,3
+731,Frankfort,3
+732,Hot Springs National Park,3
+733,Harrisonburg,3
+734,Milledgeville,3
+735,Fort Morgan,3
+736,Glenview,3
+737,Macedonia,3
+738,Naperville,3
+739,Fort Payne,3
+740,Minden,3
+741,Hanover,3
+742,Horn Lake,3
+743,Fort Smith,3
+744,Missoula,3
+745,Happy Valley,3
+746,Lake Forest,3
+747,Glendale Heights,3
+748,Lutz,3
+749,Muskogee,3
+750,Fountain,3
+751,New Bern,3
+752,Hereford,3
+753,Maryville,3
+754,New Castle,3
+755,Lomita,3
+756,Flagstaff,3
+757,Homestead,3
+758,Niles,3
+759,Lorain,3
+760,Middlesboro,3
+761,Flowood,3
+762,Huntingdon,3
+763,Kīhei,3
+764,Munster,3
+765,Newcomerstown,3
+766,Newburgh,3
+767,Maple Heights,3
+768,Lovington,3
+769,Humble,3
+770,Folsom,3
+771,Hattiesburg,3
+772,Goldsboro,3
+773,La Crosse,3
+774,Mankato,3
+775,Hobbs,3
+776,Magnolia,3
+777,Mocksville,3
+778,New Hartford,3
+779,Fort Atkinson,3
+780,Fort Bragg,3
+781,Abbeville,3
+782,Fairfax,3
+783,Portales,3
+784,Sandy,3
+785,Santa Cruz,3
+786,Chelsea,3
+787,Schaumburg,3
+788,Centre,3
+789,Central Point,3
+790,Seville,3
+791,Cedar Park,3
+792,North Platte,3
+793,Sikeston,3
+794,Carson City,3
+795,Carrollton,3
+796,Simpsonville,3
+797,Carmichael,3
+798,Sioux Falls,3
+799,Snellville,3
+800,Snohomish,3
+801,Camden,3
+802,California,3
+803,Caldwell,3
+804,Springdale,3
+805,Sulphur Springs,3
+806,Burnsville,3
+807,Summersville,3
+808,Burke,3
+809,Sand Springs,3
+810,San Ysidro,3
+811,Cicero,3
+812,Cornelius,3
+813,Prescott Valley,3
+814,Prineville,3
+815,Cypress,3
+816,Purcellville,3
+817,Rancho Cordova,3
+818,Redding,3
+819,Crawfordsville,3
+820,Council Bluffs,3
+821,Richlands,3
+822,Coshocton,3
+823,Corona,3
+824,Corbin,3
+825,Clackamas,3
+826,Coralville,3
+827,Rocklin,3
+828,Conneaut,3
+829,Rogers,3
+830,Rowland Heights,3
+831,Clyde,3
+832,Clovis,3
+833,Saint Marys,3
+834,Saint Pauls,3
+835,Saint Robert,3
+836,Clawson,3
+837,Bucyrus,3
+838,Suwanee,3
+839,Brookville,3
+840,Arvada,3
+841,Warsaw,3
+842,Wauchula,3
+843,Baltimore,3
+844,Wausau,3
+845,Wauseon,3
+846,Waynesville,3
+847,Wentzville,3
+848,West Des Moines,3
+849,Atlantic Beach,3
+850,West Jordan,3
+851,Ashville,3
+852,West Sacramento,3
+853,Walterboro,3
+854,West Valley City,3
+855,Westfield,3
+856,Appleton,3
+857,Westminster,3
+858,White City,3
+859,Whiteville,3
+860,Angola,3
+861,Altavista,3
+862,Alameda,3
+863,Yuma,3
+864,Abingdon,3
+865,Batesville,3
+866,Walcott,3
+867,Brookfield,3
+868,Twin Falls,3
+869,Tiffin,3
+870,Tinley Park,3
+871,Brandenburg,3
+872,Bourbonnais,3
+873,Bothell,3
+874,Traverse City,3
+875,Tualatin,3
+876,Boaz,3
+877,Bluffton,3
+878,Blue Springs,3
+879,Tuskegee,3
+880,Valley,3
+881,Beatrice,3
+882,Berwyn,3
+883,Veradale,3
+884,Benton,3
+885,Benson,3
+886,Vidalia,3
+887,Vienna,3
+888,Belleville,3
+889,Bellefontaine,3
+890,Visalia,3
+891,Waco,3
+892,Wailuku,3
+893,Davis,3
+894,Sidney,3
+895,Parkersburg,3
+896,Paducah,3
+897,Delphi,3
+898,Peachtree City,3
+899,Plymouth,3
+900,Palm City,3
+901,Pleasanton,3
+902,Eufaula,3
+903,Pearland,3
+904,Dyer,3
+905,Detroit Lakes,3
+906,Painesville,3
+907,Oak Park,3
+908,Erie,3
+909,Evergreen,3
+910,Pella,3
+911,Dunn,3
+912,Dunedin,3
+913,El Dorado,3
+914,Duncanville,3
+915,Omak,3
+916,Duncan,3
+917,Elkins,3
+918,Easton,3
+919,Perry,3
+920,Perrysburg,3
+921,Payson,3
+922,Pleasant Hill,3
+923,Parkville,3
+924,North Richland Hills,3
+925,Panama City Beach,3
+926,Paris,3
+927,Palo Alto,3
+928,Ponca City,3
+929,Pooler,3
+930,Port Angeles,3
+931,Palm Harbor,3
+932,Paragould,3
+933,Victorville,2
+934,New Kensington,2
+935,Owosso,2
+936,Toomsuba,2
+937,Victoria,2
+938,Ozark,2
+939,Oxon Hill,2
+940,Paola,2
+941,Tooele,2
+942,Torrance,2
+943,Palm Desert,2
+944,Owens Cross Roads,2
+945,Vero Beach,2
+946,Lanham,2
+947,Wabash,2
+948,Owatonna,2
+949,Wadsworth,2
+950,Wahiawā,2
+951,Lincoln City,2
+952,Waikoloa,2
+953,Owasso,2
+954,Lake Zurich,2
+955,Wake Forest,2
+956,Laughlin,2
+957,New Lebanon,2
+958,Laurinburg,2
+959,Vernon Hills,2
+960,Tuscola,2
+961,Upland,2
+962,Tupelo,2
+963,Upper Darby,2
+964,Palmdale,2
+965,Lemoore,2
+966,Leitchfield,2
+967,Uvalde,2
+968,Valdez,2
+969,Valdosta,2
+970,Valencia,2
+971,Tucker,2
+972,Lees Summit,2
+973,Lake Havasu City,2
+974,Palatine,2
+975,Vandalia,2
+976,Paintsville,2
+977,Liberty Lake,2
+978,New Martinsville,2
+979,Leawood,2
+980,Leavenworth,2
+981,Vermillion,2
+982,Vernon,2
+983,Triadelphia,2
+984,Trenton,2
+985,Tremonton,2
+986,Lenexa,2
+987,Ottumwa,2
+988,Warrior,2
+989,Lake Geneva,2
+990,Kennesaw,2
+991,Kankakee,2
+992,Willow Grove,2
+993,Williams,2
+994,Wildwood,2
+995,North Little Rock,2
+996,Whitehall,2
+997,White Plains,2
+998,North Hollywood,2
+999,Oshkosh,2
+1000,Wheeling,2
+1001,Westville,2
+1002,Kernersville,2
+1003,Ketchikan,2
+1004,O Fallon,2
+1005,Key West,2
+1006,Kilgore,2
+1007,Wilsonville,2
+1008,Kaneohe,2
+1009,Windsor,2
+1010,Winslow,2
+1011,Northfield,2
+1012,Youngsville,2
+1013,Northridge,2
+1014,Yelm,2
+1015,Yazoo City,2
+1016,Wytheville,2
+1017,Wyoming,2
+1018,Wrens,2
+1019,Woodstock,2
+1020,Wixom,2
+1021,Wise,2
+1022,Wisconsin Rapids,2
+1023,Winterville,2
+1024,North Miami Beach,2
+1025,Winter Park,2
+1026,Westland,2
+1027,Westlake,2
+1028,Oak Island,2
+1029,Olive Branch,2
+1030,Waynesboro,2
+1031,Waycross,2
+1032,Opelousas,2
+1033,Orange,2
+1034,Waukee,2
+1035,Oregon,2
+1036,Water Valley,2
+1037,Washington Court House,2
+1038,Ladson,2
+1039,Lady Lake,2
+1040,Orem,2
+1041,Lake Bluff,2
+1042,Nixa,2
+1043,Walnut Ridge,2
+1044,Walla Walla,2
+1045,Olmsted Falls,2
+1046,Wesley Chapel,2
+1047,Westerville,2
+1048,West Covina,2
+1049,Kings Mountain,2
+1050,Westbury,2
+1051,Oak Lawn,2
+1052,Kingston,2
+1053,Kingstree,2
+1054,Kingsville,2
+1055,West Union,2
+1056,Kinston,2
+1057,West Point,2
+1058,Ocean City,2
+1059,West Memphis,2
+1060,Ocean Springs,2
+1061,North Bend,2
+1062,West Jefferson,2
+1063,Norristown,2
+1064,Tomah,2
+1065,Port Byron,2
+1066,Lincolnton,2
+1067,Plover,2
+1068,Plano,2
+1069,Munroe Falls,2
+1070,Mulberry,2
+1071,Metairie,2
+1072,Saint Johns,2
+1073,Saint Helens,2
+1074,Saint George,2
+1075,Saint Clair,2
+1076,Saint Augustine,2
+1077,Saint Albans,2
+1078,Platte City,2
+1079,Rolling Prairie,2
+1080,Plattsmouth,2
+1081,Rocky River,2
+1082,Roanoke Rapids,2
+1083,Pittsburg,2
+1084,Pittsboro,2
+1085,Merritt Island,2
+1086,Murphy,2
+1087,Mcminnville,2
+1088,Meadville,2
+1089,Philippi,2
+1090,Mechanicsburg,2
+1091,Santa Clara,2
+1092,Murrells Inlet,2
+1093,Pico Rivera,2
+1094,San Clemente,2
+1095,Melrose Park,2
+1096,Pinson,2
+1097,San Marcos,2
+1098,Pisgah Forest,2
+1099,Meriden,2
+1100,San Leandro,2
+1101,Riverton,2
+1102,Milan,2
+1103,Pevely,2
+1104,Millbrook,2
+1105,Montezuma,2
+1106,Moscow,2
+1107,Rawlins,2
+1108,Rapid City,2
+1109,Ranson,2
+1110,Rancho Santa Margarita,2
+1111,Rancho Cucamonga,2
+1112,Moorhead,2
+1113,Radcliff,2
+1114,Moorpark,2
+1115,Racine,2
+1116,Morrow,2
+1117,Pontotoc,2
+1118,Morrilton,2
+1119,Pratt,2
+1120,Monterey,2
+1121,Monroeville,2
+1122,Redlands,2
+1123,Moundsville,2
+1124,Riverhead,2
+1125,Mount Juliet,2
+1126,Riverbank,2
+1127,Rittman,2
+1128,Ripley,2
+1129,Rifle,2
+1130,Pocatello,2
+1131,Redondo Beach,2
+1132,Polk City,2
+1133,Richfield,2
+1134,Mitchell,2
+1135,Polson,2
+1136,Reidsville,2
+1137,Redwood City,2
+1138,Peyton,2
+1139,Schertz,2
+1140,Lindenhurst,2
+1141,Southaven,2
+1142,Sumter,2
+1143,Payette,2
+1144,Lucedale,2
+1145,Natchez,2
+1146,Sulphur,2
+1147,Sturgis,2
+1148,Stuart,2
+1149,Lumberton,2
+1150,Stone Mountain,2
+1151,Statesville,2
+1152,Springville,2
+1153,Lynden,2
+1154,Napoleon,2
+1155,Pearisburg,2
+1156,Springboro,2
+1157,Sun City Center,2
+1158,Sunnyside,2
+1159,Paulding,2
+1160,John Day,2
+1161,Thousand Oaks,2
+1162,Thorndale,2
+1163,Theodore,2
+1164,Thackerville,2
+1165,Texas City,2
+1166,Tallmadge,2
+1167,New Braunfels,2
+1168,Surprise,2
+1169,Sylvester,2
+1170,Sylvania,2
+1171,Sylva,2
+1172,Sweet Home,2
+1173,Sutherlin,2
+1174,Susanville,2
+1175,Southfield,2
+1176,South San Francisco,2
+1177,McHenry,2
+1178,South Holland,2
+1179,Sheridan,2
+1180,Seymour,2
+1181,Senatobia,2
+1182,Perryville,2
+1183,Mattoon,2
+1184,Peru,2
+1185,Seffner,2
+1186,Maumee,2
+1187,Sedona,2
+1188,Maumelle,2
+1189,Sedalia,2
+1190,Searcy,2
+1191,Maysville,2
+1192,Seaford,2
+1193,Scott Depot,2
+1194,Sherman,2
+1195,Perris,2
+1196,Sierra Vista,2
+1197,Socorro,2
+1198,Magee,2
+1199,Magna,2
+1200,South Boston,2
+1201,Maineville,2
+1202,Mandan,2
+1203,Solon,2
+1204,Pearsall,2
+1205,Nags Head,2
+1206,Napa,2
+1207,Marquette,2
+1208,Silverton,2
+1209,Marrero,2
+1210,Silver City,2
+1211,Siler City,2
+1212,Port Arthur,2
+1213,Lenoir City,2
+1214,Clearwater Beach,2
+1215,Cocoa,2
+1216,Beaver,2
+1217,Glenwood Springs,2
+1218,Beachwood,2
+1219,Eastlake,2
+1220,Headland,2
+1221,East Wenatchee,2
+1222,Bay Minette,2
+1223,Coldwater,2
+1224,East Peoria,2
+1225,East Palestine,2
+1226,Fallon,2
+1227,East Chicago,2
+1228,Heath,2
+1229,Batesburg,2
+1230,Clive,2
+1231,Eaton,2
+1232,Beech Grove,2
+1233,Globe,2
+1234,Eden Prairie,2
+1235,Celina,2
+1236,Clintonville,2
+1237,Edinburg,2
+1238,Clinton Township,2
+1239,Belle Fourche,2
+1240,Belle Glade,2
+1241,Clemmons,2
+1242,Bridgeton,2
+1243,Edwards,2
+1244,Golden,2
+1245,Edwardsville,2
+1246,Havelock,2
+1247,Falls Church,2
+1248,Colfax,2
+1249,Homer,2
+1250,Holland,2
+1251,Dora,2
+1252,Austell,2
+1253,Caro,2
+1254,Colville,2
+1255,Hodgenville,2
+1256,Holdrege,2
+1257,District Heights,2
+1258,Hempstead,2
+1259,Auburn Hills,2
+1260,Gig Harbor,2
+1261,Dickson,2
+1262,Carlsbad,2
+1263,Buckhannon,2
+1264,Atmore,2
+1265,Boiling Springs,2
+1266,Casa Grande,2
+1267,Girard,2
+1268,Downey,2
+1269,Azusa,2
+1270,Hildebran,2
+1271,Glen Burnie,2
+1272,Draper,2
+1273,Du Quoin,2
+1274,Ballwin,2
+1275,Farmville,2
+1276,Dumfries,2
+1277,Hertford,2
+1278,Dunnellon,2
+1279,Durango,2
+1280,Barberton,2
+1281,College Park,2
+1282,Belpre,2
+1283,Belton,2
+1284,Belvidere,2
+1285,Chincoteague Island,2
+1286,Cherryville,2
+1287,Estes Park,2
+1288,Boulder,2
+1289,Blakely,2
+1290,Bozeman,2
+1291,Grapevine,2
+1292,Guntersville,2
+1293,Evergreen Park,2
+1294,Gurnee,2
+1295,Chanhassen,2
+1296,Grants,2
+1297,Elkton,2
+1298,Chambersburg,2
+1299,Granite Falls,2
+1300,Groveland,2
+1301,Grayson,2
+1302,Bloomsburg,2
+1303,Bonney Lake,2
+1304,Grenada,2
+1305,Blue Island,2
+1306,Emporia,2
+1307,Cheney,2
+1308,Chehalis,2
+1309,Great Falls,2
+1310,Greensburg,2
+1311,Blytheville,2
+1312,Chatsworth,2
+1313,Erlanger,2
+1314,Bonita Springs,2
+1315,Enumclaw,2
+1316,Bolivar,2
+1317,Black Mountain,2
+1318,Gustine,2
+1319,Chocowinity,2
+1320,Breaux Bridge,2
+1321,Evans,2
+1322,Bensalem,2
+1323,El Cajon,2
+1324,El Monte,2
+1325,Graham,2
+1326,Bentonville,2
+1327,Cle Elum,2
+1328,Hannibal,2
+1329,Berea,2
+1330,Centralia,2
+1331,Eustis,2
+1332,Clarksburg,2
+1333,Berkeley Springs,2
+1334,Hancock,2
+1335,Elgin,2
+1336,Brady,2
+1337,Berthoud,2
+1338,Grand Blanc,2
+1339,Grand Rapids,2
+1340,Elizabethton,2
+1341,Grandview,2
+1342,Branson,2
+1343,Eunice,2
+1344,Grandy,2
+1345,Bethlehem,2
+1346,Euless,2
+1347,Big Rapids,2
+1348,Hagerstown,2
+1349,Cerritos,2
+1350,Granite City,2
+1351,Atkins,2
+1352,Hinckley,2
+1353,Coos Bay,2
+1354,Huntington Park,2
+1355,Dawsonville,2
+1356,Corolla,2
+1357,Gaithersburg,2
+1358,Irving,2
+1359,Andover,2
+1360,Butler,2
+1361,Angier,2
+1362,Corning,2
+1363,Crawfordville,2
+1364,Cabot,2
+1365,Angleton,2
+1366,Alhambra,2
+1367,Forest Grove,2
+1368,Ann Arbor,2
+1369,Corinth,2
+1370,DeKalb,2
+1371,DeLand,2
+1372,Cordele,2
+1373,Alexander City,2
+1374,Albion,2
+1375,Freeport,2
+1376,Canby,2
+1377,Alpharetta,2
+1378,Deerfield,2
+1379,Coolidge,2
+1380,Corsicana,2
+1381,Craig,2
+1382,Annapolis,2
+1383,Buena Park,2
+1384,Alpena,2
+1385,Inman,2
+1386,Byron,2
+1387,Ft Mitchell,2
+1388,Alton,2
+1389,Cabool,2
+1390,Altus,2
+1391,Cottondale,2
+1392,Alva,2
+1393,Cottage Grove,2
+1394,Fullerton,2
+1395,Canal Fulton,2
+1396,Alma,2
+1397,Allentown,2
+1398,Cowpens,2
+1399,Davidson,2
+1400,Hutchinson,2
+1401,Cortland,2
+1402,Amelia,2
+1403,Americus,2
+1404,Campbellsville,2
+1405,Ames,2
+1406,Iowa City,2
+1407,Huron,2
+1408,Amsterdam,2
+1409,Houma,2
+1410,Inver Grove Heights,2
+1411,Anoka,2
+1412,Gas City,2
+1413,Camp Lejeune,2
+1414,Gate City,2
+1415,Deerfield Beach,2
+1416,Crestview,2
+1417,Hopewell,2
+1418,Jefferson City,2
+1419,Arcadia,2
+1420,Jeffersonville,2
+1421,Camp Hill,2
+1422,Cameron,2
+1423,Acworth,2
+1424,Arcata,2
+1425,Capitol Heights,2
+1426,Arden,2
+1427,Calvert City,2
+1428,Derby,2
+1429,Comstock Park,2
+1430,Fort Walton Beach,2
+1431,Jerome,2
+1432,Arlington Heights,2
+1433,Artesia,2
+1434,Jerseyville,2
+1435,Ashburn,2
+1436,Flushing,2
+1437,Ashland City,2
+1438,Denham Springs,2
+1439,Fort Madison,2
+1440,Burley,2
+1441,Cuba,2
+1442,Gardena,2
+1443,Canoga Park,2
+1444,Culpeper,2
+1445,Horsham,2
+1446,Delaware,2
+1447,Fond du Lac,2
+1448,Fontana,2
+1449,Cullowhee,2
+1450,Albemarle,2
+1451,Albertville,2
+1452,Burton,2
+1453,Jamestown,2
+1454,Crystal River,2
+1455,Canal Winchester,1
+1456,Chantilly,1
+1457,Camby,1
+1458,Seal Beach,1
+1459,Ceres,1
+1460,Canandaigua,1
+1461,South Lyon,1
+1462,Seligman,1
+1463,Camp Verde,1
+1464,South Padre Island,1
+1465,South Pasadena,1
+1466,South Hill,1
+1467,South Lebanon,1
+1468,Chanute,1
+1469,Campbell,1
+1470,Selah,1
+1471,South Pittsburg,1
+1472,Southampton,1
+1473,Chalmette,1
+1474,Chadron,1
+1475,South Williamson,1
+1476,South Jordan,1
+1477,Chapin,1
+1478,Sealy,1
+1479,Sisters,1
+1480,Sevierville,1
+1481,South Bend,1
+1482,Selmer,1
+1483,Snoqualmie,1
+1484,Cassville,1
+1485,Shingle Springs,1
+1486,Shingletown,1
+1487,Canfield,1
+1488,Shinnston,1
+1489,Shippensburg,1
+1490,Shorewood,1
+1491,Shorter,1
+1492,Canonsburg,1
+1493,Cassopolis,1
+1494,Casselberry,1
+1495,Casper,1
+1496,Casey,1
+1497,Smithville,1
+1498,Canyonville,1
+1499,Silsbee,1
+1500,Carterville,1
+1501,Carrboro,1
+1502,Carpentersville,1
+1503,Silverthorne,1
+1504,Slaton,1
+1505,Simi Valley,1
+1506,Carnegie,1
+1507,Carlyle,1
+1508,Carbondale,1
+1509,Sitka,1
+1510,Sherrills Ford,1
+1511,Sherman Oaks,1
+1512,Castle Hayne,1
+1513,Centerton,1
+1514,South Beloit,1
+1515,South Bay,1
+1516,Souderton,1
+1517,Sorrento,1
+1518,Centerville,1
+1519,Seneca,1
+1520,Soquel,1
+1521,Sonora,1
+1522,Seneca Falls,1
+1523,Sonoma,1
+1524,Somerville,1
+1525,Severn,1
+1526,Seward,1
+1527,Castle Rock,1
+1528,Sharpsburg,1
+1529,Solvang,1
+1530,Canastota,1
+1531,Shawano,1
+1532,Cedarville,1
+1533,Cedar Hill,1
+1534,Cedar City,1
+1535,Cañon City,1
+1536,Soldotna,1
+1537,Catlettsburg,1
+1538,Shenandoah,1
+1539,Castroville,1
+1540,Chappell Hill,1
+1541,Joelton,1
+1542,Charles Town,1
+1543,River Falls,1
+1544,Connellsville,1
+1545,Rocky Ford,1
+1546,Rockville Centre,1
+1547,Rockville,1
+1548,Rockmart,1
+1549,Conshohocken,1
+1550,Rockingham,1
+1551,Conyers,1
+1552,Rockdale,1
+1553,Rock Spring,1
+1554,Rock Hill,1
+1555,Cookeville,1
+1556,Robinson Creek,1
+1557,Robbinsville,1
+1558,Copiague,1
+1559,Copperopolis,1
+1560,Cornelia,1
+1561,Concordia,1
+1562,Rogersville,1
+1563,Rogue River,1
+1564,Colusa,1
+1565,Columbia Falls,1
+1566,Rossville,1
+1567,Columbiana,1
+1568,Rosendale,1
+1569,Rosenberg,1
+1570,Rosemead,1
+1571,Roselle,1
+1572,Romulus,1
+1573,Rohnert Park,1
+1574,Romney,1
+1575,Romeoville,1
+1576,Comanche,1
+1577,Roma,1
+1578,Comfort,1
+1579,Rolling Fork,1
+1580,Commerce City,1
+1581,Cornersville,1
+1582,Rising Sun,1
+1583,Charlotte Hall,1
+1584,Ripon,1
+1585,Creedmoor,1
+1586,Rehoboth Beach,1
+1587,Reform,1
+1588,Reese,1
+1589,Reed City,1
+1590,Crescent City,1
+1591,Cresson,1
+1592,Crest Hill,1
+1593,Crestline,1
+1594,Redford,1
+1595,Redfield,1
+1596,Red Bluff,1
+1597,Red Bay,1
+1598,Crestwood,1
+1599,Rayne,1
+1600,Raymond,1
+1601,Crisfield,1
+1602,Reisterstown,1
+1603,Republic,1
+1604,Reston,1
+1605,Cottonwood,1
+1606,Rincon,1
+1607,Rigby,1
+1608,Riesel,1
+1609,Ridgeland,1
+1610,Ridgefield,1
+1611,Richwood,1
+1612,Richland Center,1
+1613,Courtland,1
+1614,Rexburg,1
+1615,Richburg,1
+1616,Richboro,1
+1617,Rich Creek,1
+1618,Rice,1
+1619,Rialto,1
+1620,Coushatta,1
+1621,Reynoldsville,1
+1622,Round Lake,1
+1623,Colton,1
+1624,Colmar,1
+1625,Roxboro,1
+1626,San Tan Valley,1
+1627,San Simon,1
+1628,San Rafael,1
+1629,San Pablo,1
+1630,Circle Pines,1
+1631,Citronelle,1
+1632,San Luis,1
+1633,Claremore,1
+1634,San Juan Capistrano,1
+1635,San Juan,1
+1636,Clarkesville,1
+1637,San Jacinto,1
+1638,San Gabriel,1
+1639,Clarks Summit,1
+1640,San Fernando,1
+1641,San Dimas,1
+1642,Clatskanie,1
+1643,Christopher,1
+1644,Chipley,1
+1645,Chino Valley,1
+1646,Saratoga Springs,1
+1647,Scottsbluff,1
+1648,Scotts Valley,1
+1649,Chatham,1
+1650,Scotland Neck,1
+1651,Cheboygan,1
+1652,Cherokee,1
+1653,Satellite Beach,1
+1654,Chesnee,1
+1655,Chino Hills,1
+1656,Chesterland,1
+1657,Santa Paula,1
+1658,Santa Fe Springs,1
+1659,Chicago Heights,1
+1660,Childersburg,1
+1661,Santa Barbara,1
+1662,Chino,1
+1663,San Carlos,1
+1664,Clear Lake,1
+1665,Clearlake,1
+1666,Collegeville,1
+1667,Saint Clairsville,1
+1668,Saint Clair Shores,1
+1669,Coeburn,1
+1670,College Place,1
+1671,Sadieville,1
+1672,College Station,1
+1673,Rutherfordton,1
+1674,Russell,1
+1675,Saint Francis,1
+1676,Ruskin,1
+1677,Rusk,1
+1678,Rupert,1
+1679,Ruidoso,1
+1680,Ruckersville,1
+1681,Royston,1
+1682,Royal Oak,1
+1683,Cocoa Beach,1
+1684,Saint Helena,1
+1685,Sammamish,1
+1686,Saint Simons Island,1
+1687,Saluda,1
+1688,Saltville,1
+1689,Southport,1
+1690,Cleburne,1
+1691,Saline,1
+1692,Clifton Forge,1
+1693,Clifton Heights,1
+1694,Clifton Park,1
+1695,Coalgate,1
+1696,Clintwood,1
+1697,Clio,1
+1698,Saint Matthews,1
+1699,Cloudcroft,1
+1700,Cloverdale,1
+1701,Coal City,1
+1702,Saint John,1
+1703,Southlake,1
+1704,Sutton,1
+1705,Spanish Fort,1
+1706,Camarillo,1
+1707,Webster,1
+1708,Webberville,1
+1709,Webb City,1
+1710,Weaverville,1
+1711,Aynor,1
+1712,Bailey,1
+1713,Bainbridge,1
+1714,Baker City,1
+1715,Waxahachie,1
+1716,Baldwin City,1
+1717,Ball,1
+1718,Ballston Spa,1
+1719,Waupaca,1
+1720,Waukesha,1
+1721,Bandon,1
+1722,Bangor,1
+1723,Watsonville,1
+1724,Watonga,1
+1725,Watkinsville,1
+1726,Wedowee,1
+1727,Avondale Estates,1
+1728,Welch,1
+1729,Atwater,1
+1730,Ashdown,1
+1731,West Mifflin,1
+1732,West Linn,1
+1733,Atchison,1
+1734,West Henrietta,1
+1735,West Hempstead,1
+1736,West Helena,1
+1737,Atoka,1
+1738,Auburn University,1
+1739,Avon Park,1
+1740,West Bend,1
+1741,West Babylon,1
+1742,Auburndale,1
+1743,Weslaco,1
+1744,Avon Lake,1
+1745,Wellsville,1
+1746,Wellston,1
+1747,Wellsburg,1
+1748,Watervliet,1
+1749,Baraboo,1
+1750,Waterford,1
+1751,Waddy,1
+1752,Bel Air,1
+1753,Waianae,1
+1754,Wahpeton,1
+1755,Wahoo,1
+1756,Bell Gardens,1
+1757,Wagoner,1
+1758,Bella Vista,1
+1759,Wade,1
+1760,Belle,1
+1761,Waite Park,1
+1762,Belmont,1
+1763,Viola,1
+1764,Vinton,1
+1765,Vineland,1
+1766,Beloit,1
+1767,Villa Rica,1
+1768,Beltsville,1
+1769,Victor,1
+1770,Beaver Dam,1
+1771,Beardstown,1
+1772,Barksdale Afb,1
+1773,Bay,1
+1774,Waskom,1
+1775,Barnesville,1
+1776,Barstow,1
+1777,Bartlesville,1
+1778,Bartow,1
+1779,Warrenville,1
+1780,Baxley,1
+1781,Baxter Springs,1
+1782,Wantagh,1
+1783,Bearden,1
+1784,Walton,1
+1785,Walsenburg,1
+1786,Bayside,1
+1787,Walnut Creek,1
+1788,Walnut Cove,1
+1789,Baytown,1
+1790,Walkertown,1
+1791,Walhalla,1
+1792,West Plains,1
+1793,West Terre Haute,1
+1794,Arkansas City,1
+1795,Wood River,1
+1796,Woodway,1
+1797,Woodville,1
+1798,Aliceville,1
+1799,Woods Cross,1
+1800,Woodruff,1
+1801,Woodridge,1
+1802,Woodland Park,1
+1803,Woodbridge,1
+1804,Wood Dale,1
+1805,Wynne,1
+1806,Almont,1
+1807,Winton,1
+1808,Altamonte Springs,1
+1809,Winters,1
+1810,Winter Springs,1
+1811,Alto,1
+1812,Winter Garden,1
+1813,Winston,1
+1814,Alice,1
+1815,Xenia,1
+1816,Winnebago,1
+1817,Advance,1
+1818,Zephyrhills,1
+1819,Zelienople,1
+1820,Zebulon,1
+1821,Zachary,1
+1822,Adairsville,1
+1823,Yukon,1
+1824,Adamsville,1
+1825,Adrian,1
+1826,Airway Heights,1
+1827,Yadkinville,1
+1828,Aitkin,1
+1829,Alamo,1
+1830,Yorba Linda,1
+1831,Yonkers,1
+1832,Yerington,1
+1833,Alamosa,1
+1834,Yates Center,1
+1835,Yankton,1
+1836,Winnsboro,1
+1837,Winfield,1
+1838,Argos,1
+1839,Wheaton,1
+1840,Whitehouse,1
+1841,White Marsh,1
+1842,White Lake,1
+1843,White Cloud,1
+1844,Antelope,1
+1845,Whitakers,1
+1846,Anthony,1
+1847,Wheelersburg,1
+1848,Wheatland,1
+1849,Anna,1
+1850,Wexford,1
+1851,Westwego,1
+1852,Antigo,1
+1853,Weston,1
+1854,Antlers,1
+1855,Antwerp,1
+1856,Apache Junction,1
+1857,Westchester,1
+1858,Whiteland,1
+1859,Whitewater,1
+1860,Alvin,1
+1861,Anacortes,1
+1862,Winder,1
+1863,Alvord,1
+1864,Winamac,1
+1865,American Fork,1
+1866,Wilmer,1
+1867,Willits,1
+1868,Williamston,1
+1869,Williamson,1
+1870,Willard,1
+1871,Whiting,1
+1872,Wiggins,1
+1873,Wickes,1
+1874,Wickenburg,1
+1875,Ankeny,1
+1876,Whitsett,1
+1877,Whitney Point,1
+1878,Whitney,1
+1879,Whitley City,1
+1880,Benicia,1
+1881,Versailles,1
+1882,Verona,1
+1883,Brusly,1
+1884,Broomall,1
+1885,Broussard,1
+1886,Browning,1
+1887,Brownsboro,1
+1888,Brownwood,1
+1889,Sykesville,1
+1890,Sycamore,1
+1891,Sweetwater,1
+1892,Swanton,1
+1893,Tahlequah,1
+1894,Swainsboro,1
+1895,Bryson City,1
+1896,Rathdrum,1
+1897,Buckeye,1
+1898,Buckley,1
+1899,Buford,1
+1900,Buies Creek,1
+1901,Sunland,1
+1902,Brookneal,1
+1903,Takoma Park,1
+1904,Sun Prairie,1
+1905,Tarpon Springs,1
+1906,Temple City,1
+1907,Temple,1
+1908,Brinkley,1
+1909,Temecula,1
+1910,Tell City,1
+1911,Taylorville,1
+1912,Taylorsville,1
+1913,Taylor,1
+1914,Tarentum,1
+1915,Talihina,1
+1916,Broadview Heights,1
+1917,Tannersville,1
+1918,Brockport,1
+1919,Tallulah,1
+1920,Brodhead,1
+1921,Tallassee,1
+1922,Brookings,1
+1923,Brooklet,1
+1924,Sun Valley,1
+1925,Bullhead City,1
+1926,Terra Alta,1
+1927,Calico Rock,1
+1928,Stanton,1
+1929,Stanford,1
+1930,Stamps,1
+1931,Stafford,1
+1932,Cadiz,1
+1933,Cairo,1
+1934,Calhoun City,1
+1935,Spring Valley,1
+1936,Calimesa,1
+1937,Sterling,1
+1938,Callahan,1
+1939,Spooner,1
+1940,Calumet City,1
+1941,Spirit Lake,1
+1942,Spencerville,1
+1943,Spencer,1
+1944,Spearfish,1
+1945,Sparta,1
+1946,Statesboro,1
+1947,Stevens Point,1
+1948,Sun City,1
+1949,Suitland,1
+1950,Burkburnett,1
+1951,Sumner,1
+1952,Burleson,1
+1953,Summerfield,1
+1954,Summerdale,1
+1955,Sumiton,1
+1956,Burwell,1
+1957,Bushnell,1
+1958,Suisun City,1
+1959,Stillwater,1
+1960,Sugar Land,1
+1961,Stuttgart,1
+1962,Byesville,1
+1963,Byram,1
+1964,Struthers,1
+1965,Streamwood,1
+1966,Strafford,1
+1967,Byrdstown,1
+1968,Tenino,1
+1969,Brigham City,1
+1970,Bensenville,1
+1971,Bladensburg,1
+1972,Urbandale,1
+1973,Birch Run,1
+1974,Upton,1
+1975,Upper Sandusky,1
+1976,Blackfoot,1
+1977,University,1
+1978,Blackwell,1
+1979,Union Grove,1
+1980,Union,1
+1981,Biloxi,1
+1982,Blair,1
+1983,Tyrone,1
+1984,Blairsville,1
+1985,Twinsburg,1
+1986,Twin City,1
+1987,Tustin,1
+1988,Blanco,1
+1989,Tuscumbia,1
+1990,Binghamton,1
+1991,Vails Gate,1
+1992,Turners Falls,1
+1993,Vanceboro,1
+1994,Benton Harbor,1
+1995,Vernal,1
+1996,Vermilion,1
+1997,Ventura,1
+1998,Berkeley,1
+1999,Veneta,1
+2000,Vega,1
+2001,Bernville,1
+2002,Van Nuys,1
+2003,Beulaville,1
+2004,Van Buren,1
+2005,Berwick,1
+2006,Bessemer City,1
+2007,Valley Park,1
+2008,Bethany,1
+2009,Vallejo,1
+2010,Valentine,1
+2011,Bethesda,1
+2012,Bloomingdale,1
+2013,Blountville,1
+2014,Terrell,1
+2015,Thorntown,1
+2016,Titus,1
+2017,Tipton,1
+2018,Tipp City,1
+2019,Brandywine,1
+2020,Tigerville,1
+2021,Brawley,1
+2022,Three Rivers,1
+2023,Thornwood,1
+2024,Brecksville,1
+2025,Bradenton Beach,1
+2026,Bremerton,1
+2027,Thief River Falls,1
+2028,Thibodaux,1
+2029,Brewster,1
+2030,The Villages,1
+2031,Bridgeview,1
+2032,Bridgeville,1
+2033,Bridgman,1
+2034,Titusville,1
+2035,Tomball,1
+2036,Tunkhannock,1
+2037,Bohemia,1
+2038,Blythe,1
+2039,Tullahoma,1
+2040,Tulare,1
+2041,Blythewood,1
+2042,Bogalusa,1
+2043,Trumann,1
+2044,Bogart,1
+2045,Troutman,1
+2046,Tripoli,1
+2047,Tompkinsville,1
+2048,Trinidad,1
+2049,Trexlertown,1
+2050,Bolingbrook,1
+2051,Travelers Rest,1
+2052,Booneville,1
+2053,Toronto,1
+2054,Toppenish,1
+2055,Bountiful,1
+2056,Ravenswood,1
+2057,Port Clinton,1
+2058,Crofton,1
+2059,Mandeville,1
+2060,Manchester,1
+2061,Mammoth Lakes,1
+2062,Maitland,1
+2063,Haleyville,1
+2064,Maiden,1
+2065,Halifax,1
+2066,Hallsville,1
+2067,Maggie Valley,1
+2068,Hamburg,1
+2069,Madison Heights,1
+2070,Hamlin,1
+2071,Madera,1
+2072,Macomb,1
+2073,Machesney Park,1
+2074,Hanford,1
+2075,Macclenny,1
+2076,Mableton,1
+2077,Lynwood,1
+2078,Hanover Park,1
+2079,Halethorpe,1
+2080,Haleiwa,1
+2081,Lykens,1
+2082,Manistee,1
+2083,Mart,1
+2084,Marshfield,1
+2085,Marshalltown,1
+2086,Grundy,1
+2087,Guin,1
+2088,Gunnison,1
+2089,Marina del Rey,1
+2090,Maricopa,1
+2091,Marianna,1
+2092,Marengo,1
+2093,Marco Island,1
+2094,Maplesville,1
+2095,Maple Valley,1
+2096,Mantua,1
+2097,Guthrie,1
+2098,Gwynn Oak,1
+2099,Mannington,1
+2100,Manning,1
+2101,Mannford,1
+2102,Harbor City,1
+2103,Hardin,1
+2104,Moneta,1
+2105,Long Prairie,1
+2106,Hawthorne,1
+2107,Hayden,1
+2108,Hayesville,1
+2109,Loganville,1
+2110,Hays,1
+2111,Haysville,1
+2112,Hayward,1
+2113,Hazel Crest,1
+2114,Lockport,1
+2115,Livonia,1
+2116,Hazel Green,1
+2117,Liverpool,1
+2118,Livermore,1
+2119,Hazen,1
+2120,Littlefield,1
+2121,Little Rock Air Force Base,1
+2122,Little River,1
+2123,Little Chute,1
+2124,Lithonia,1
+2125,Long Lake,1
+2126,Hawkinsville,1
+2127,Luray,1
+2128,Loogootee,1
+2129,Harleysville,1
+2130,Luling,1
+2131,Harrah,1
+2132,Ludington,1
+2133,Harrodsburg,1
+2134,Hastings,1
+2135,Loxley,1
+2136,Lower Lake,1
+2137,Haughton,1
+2138,Loves Park,1
+2139,Haverhill,1
+2140,Havertown,1
+2141,Louisburg,1
+2142,Loudon,1
+2143,Los Lunas,1
+2144,Havre,1
+2145,Lorton,1
+2146,Loris,1
+2147,Havre de Grace,1
+2148,Martin,1
+2149,Martinez,1
+2150,Grover,1
+2151,Milpitas,1
+2152,Millsboro,1
+2153,Millersville,1
+2154,Millersburg,1
+2155,Millers Creek,1
+2156,Miller Place,1
+2157,Mill Valley,1
+2158,Gloversville,1
+2159,Godfrey,1
+2160,Milaca,1
+2161,Mifflintown,1
+2162,Midway,1
+2163,Gold Canyon,1
+2164,Goldendale,1
+2165,Goleta,1
+2166,Goodyear,1
+2167,Gothenburg,1
+2168,Middle River,1
+2169,Grambling,1
+2170,Granbury,1
+2171,Milltown,1
+2172,Glenwood,1
+2173,Grove Hill,1
+2174,Milton Freewater,1
+2175,Moline,1
+2176,Mogadore,1
+2177,Gladewater,1
+2178,Gladstone,1
+2179,Moberly,1
+2180,Moab,1
+2181,Glen Ellyn,1
+2182,Mission Viejo,1
+2183,Glen Mills,1
+2184,Glendive,1
+2185,Minster,1
+2186,Minot Afb,1
+2187,Minot,1
+2188,Minooka,1
+2189,Minocqua,1
+2190,Glenn Dale,1
+2191,Mineral Wells,1
+2192,Glennville,1
+2193,Glens Falls,1
+2194,Grand Bay,1
+2195,Metter,1
+2196,Grand Canyon,1
+2197,Grand Ledge,1
+2198,Green River,1
+2199,McCall,1
+2200,Greenacres,1
+2201,Greenbrier,1
+2202,Mc Lean,1
+2203,Mc Cook,1
+2204,Mc Calla,1
+2205,Maywood,1
+2206,Greencastle,1
+2207,Mayfield,1
+2208,Greenport,1
+2209,Greenup,1
+2210,Greenwell Springs,1
+2211,Matthews,1
+2212,Mathis,1
+2213,Mastic,1
+2214,Massena,1
+2215,Griffith,1
+2216,Grimes,1
+2217,McKeesport,1
+2218,McKinney,1
+2219,Green Cove Springs,1
+2220,Melville,1
+2221,Merrill,1
+2222,Grandville,1
+2223,Mercer Island,1
+2224,Mercedes,1
+2225,Granite Bay,1
+2226,Menomonie,1
+2227,Menominee,1
+2228,Menifee,1
+2229,Grantsville,1
+2230,McPherson,1
+2231,Meeker,1
+2232,Medicine Lodge,1
+2233,Grass Valley,1
+2234,Mechanicville,1
+2235,Mechanicsville,1
+2236,Grayslake,1
+2237,Great Bend,1
+2238,Meadowview,1
+2239,Lithia Springs,1
+2240,Lithia,1
+2241,Litchfield,1
+2242,Huntley,1
+2243,Knightstown,1
+2244,Hurst,1
+2245,Kitts Hill,1
+2246,Hutchins,1
+2247,Kirksville,1
+2248,Kingwood,1
+2249,Idaho Falls,1
+2250,Idaho Springs,1
+2251,Kingston Springs,1
+2252,Ina,1
+2253,Indialantic,1
+2254,Kingsland,1
+2255,Indian Trail,1
+2256,Indiana,1
+2257,Kingdom City,1
+2258,King George,1
+2259,Ingleside,1
+2260,Kinder,1
+2261,Inglewood,1
+2262,Knob Noster,1
+2263,Koloa,1
+2264,Hot Springs Village,1
+2265,Koosharem,1
+2266,Lacey,1
+2267,House Springs,1
+2268,La Vista,1
+2269,La Verne,1
+2270,Howard,1
+2271,Howard City,1
+2272,La Plata,1
+2273,La Pine,1
+2274,La Marque,1
+2275,La Junta,1
+2276,La Habra,1
+2277,Howell,1
+2278,Hubert,1
+2279,La Fayette,1
+2280,Hugo,1
+2281,Huntingburg,1
+2282,Kyle,1
+2283,Kuna,1
+2284,Kouts,1
+2285,Inglis,1
+2286,Keystone Heights,1
+2287,Kewanee,1
+2288,Inwood,1
+2289,Issaquah,1
+2290,Itasca,1
+2291,Iva,1
+2292,Jackson Center,1
+2293,Kanab,1
+2294,Kalkaska,1
+2295,Janesville,1
+2296,Jarrell,1
+2297,Jbsa Lackland,1
+2298,Jean,1
+2299,Kahuku,1
+2300,Kadoka,1
+2301,Juneau,1
+2302,Jenison,1
+2303,Jennings,1
+2304,Jones,1
+2305,Jermyn,1
+2306,Joint Base Lewis Mcchord,1
+2307,Johnston,1
+2308,Kapolei,1
+2309,Isle of Palms,1
+2310,Kaufman,1
+2311,Kenosha,1
+2312,Kershaw,1
+2313,Kerrville,1
+2314,Iola,1
+2315,Keokuk,1
+2316,Kenton,1
+2317,Kent City,1
+2318,Iowa,1
+2319,Kensington,1
+2320,Kennett,1
+2321,Kawkawlin,1
+2322,Iron Mountain,1
+2323,Kenly,1
+2324,Kendallville,1
+2325,Kenai,1
+2326,Kelso,1
+2327,Keeseville,1
+2328,Kearneysville,1
+2329,Island Park,1
+2330,Laceys Spring,1
+2331,Hot Springs,1
+2332,Lisle,1
+2333,Heyburn,1
+2334,Hicksville,1
+2335,Lemoyne,1
+2336,Highlands,1
+2337,Lemont Furnace,1
+2338,Leland,1
+2339,Lehi,1
+2340,Leetonia,1
+2341,Hill City,1
+2342,Hillside,1
+2343,Hillsville,1
+2344,Hilton Head Island,1
+2345,Lecompte,1
+2346,Lecanto,1
+2347,Hines,1
+2348,Hinesville,1
+2349,Leander,1
+2350,League City,1
+2351,Le Mars,1
+2352,Hiram,1
+2353,Hibbing,1
+2354,Lesage,1
+2355,Lafayette Hill,1
+2356,Levelland,1
+2357,Linton,1
+2358,Linthicum Heights,1
+2359,Lincolnwood,1
+2360,Heber City,1
+2361,Hemet,1
+2362,Hemingway,1
+2363,Limon,1
+2364,Hennessey,1
+2365,Lilburn,1
+2366,Hercules,1
+2367,Libertyville,1
+2368,Hernando,1
+2369,Herndon,1
+2370,Liberal,1
+2371,Hesperia,1
+2372,Lewistown,1
+2373,Hewlett,1
+2374,Lewis Center,1
+2375,Levittown,1
+2376,Lawson,1
+2377,Lawrenceville,1
+2378,Hixson,1
+2379,Hollis,1
+2380,Lakeville,1
+2381,Lakeside,1
+2382,Hondo,1
+2383,Hope,1
+2384,Hope Mills,1
+2385,Lake Village,1
+2386,Lake Saint Louis,1
+2387,Lake Placid,1
+2388,Lake Orion,1
+2389,Lake Mills,1
+2390,Hopkins,1
+2391,Hopkinsville,1
+2392,Hopland,1
+2393,Lake Elsinore,1
+2394,Horse Cave,1
+2395,Horseheads,1
+2396,Hortonville,1
+2397,Laguna Niguel,1
+2398,Laguna Beach,1
+2399,Homosassa,1
+2400,Lamar,1
+2401,Lambertville,1
+2402,Holton,1
+2403,Latta,1
+2404,Latonia,1
+2405,Lathrop,1
+2406,Latham,1
+2407,Hollister,1
+2408,Holly Pond,1
+2409,Larose,1
+2410,Holt,1
+2411,Laramie,1
+2412,Lamesa,1
+2413,Lapel,1
+2414,Homerville,1
+2415,Langhorne,1
+2416,Lanett,1
+2417,Homewood,1
+2418,Lampasas,1
+2419,Lamont,1
+2420,Lamoni,1
+2421,Monaca,1
+2422,Gilroy,1
+2423,Crooksville,1
+2424,Pearl City,1
+2425,Earth City,1
+2426,East Bernard,1
+2427,Pauls Valley,1
+2428,East Liverpool,1
+2429,East Mc Keesport,1
+2430,East Petersburg,1
+2431,Parker City,1
+2432,Paramount,1
+2433,Eastland,1
+2434,Paradise,1
+2435,Papillion,1
+2436,Paoli,1
+2437,Eastpointe,1
+2438,Eatonville,1
+2439,Pamplico,1
+2440,Palmetto,1
+2441,Edgewater,1
+2442,Edinburgh,1
+2443,Edisto Island,1
+2444,Early,1
+2445,Dyersburg,1
+2446,Palestine,1
+2447,Dwight,1
+2448,Pickens,1
+2449,Douglas,1
+2450,Philomath,1
+2451,Philipsburg,1
+2452,Douglasville,1
+2453,Dowagiac,1
+2454,Pfafftown,1
+2455,Doylestown,1
+2456,Petoskey,1
+2457,Dresher,1
+2458,Petaluma,1
+2459,Dripping Springs,1
+2460,Duarte,1
+2461,Duluth,1
+2462,Dumas,1
+2463,Perkasie,1
+2464,Dundee,1
+2465,Dunlap,1
+2466,Durant,1
+2467,Palm Beach Gardens,1
+2468,Edmonds,1
+2469,Gila Bend,1
+2470,Elk City,1
+2471,Elkhorn,1
+2472,Elkin,1
+2473,Elko,1
+2474,Orchard Park,1
+2475,Orangevale,1
+2476,Orangeburg,1
+2477,Orange Park,1
+2478,Orange City,1
+2479,Orange Beach,1
+2480,Opp,1
+2481,Ellsworth,1
+2482,Elmhurst,1
+2483,Elmira,1
+2484,Elmont,1
+2485,Onalaska,1
+2486,Elmsford,1
+2487,Elmwood,1
+2488,Elsa,1
+2489,Elwood,1
+2490,Elk Grove Village,1
+2491,Ormond Beach,1
+2492,Edmonton,1
+2493,Elizabethville,1
+2494,Painted Post,1
+2495,Pahrump,1
+2496,Pacoima,1
+2497,Pacific,1
+2498,Effingham,1
+2499,Oyster Bay,1
+2500,Eielson Afb,1
+2501,Owensville,1
+2502,El Segundo,1
+2503,Eldon,1
+2504,Owego,1
+2505,Eldred,1
+2506,Eldridge,1
+2507,Overland Park,1
+2508,Elizabeth City,1
+2509,Otis,1
+2510,Oswego,1
+2511,Oskaloosa,1
+2512,Osawatomie,1
+2513,Doniphan,1
+2514,Donaldsonville,1
+2515,Piketon,1
+2516,Pryor,1
+2517,Prosser,1
+2518,Prospect Heights,1
+2519,Prospect,1
+2520,Proctorville,1
+2521,Dacula,1
+2522,Dade City,1
+2523,Preston,1
+2524,Daisetta,1
+2525,Prescott,1
+2526,Prentiss,1
+2527,Daniels,1
+2528,Dansville,1
+2529,Dardanelle,1
+2530,Pounding Mill,1
+2531,Poulsbo,1
+2532,Poughkeepsie,1
+2533,Pottstown,1
+2534,Darien,1
+2535,Porterville,1
+2536,Cynthiana,1
+2537,Custer,1
+2538,Pikeville,1
+2539,Pulaski,1
+2540,Randleman,1
+2541,Randallstown,1
+2542,Cropseyville,1
+2543,Cross Plains,1
+2544,Crossett,1
+2545,Ramseur,1
+2546,Croswell,1
+2547,Crowley,1
+2548,Crystal Lake,1
+2549,Raeford,1
+2550,Radford,1
+2551,Quinlan,1
+2552,Queen Creek,1
+2553,Quartzsite,1
+2554,Purvis,1
+2555,Cumberland,1
+2556,Purcell,1
+2557,Punxsutawney,1
+2558,Cumberland Furnace,1
+2559,Portersville,1
+2560,Davison,1
+2561,Dawson,1
+2562,De Pere,1
+2563,Pleasant View,1
+2564,Pleasant Prairie,1
+2565,Denison,1
+2566,Denton,1
+2567,Platteville,1
+2568,Destin,1
+2569,Devers,1
+2570,Dexter,1
+2571,Plain City,1
+2572,Placerville,1
+2573,Placentia,1
+2574,Pittston,1
+2575,Diamond Bar,1
+2576,Dimondale,1
+2577,Dinuba,1
+2578,Piney Flats,1
+2579,Dixon,1
+2580,Dodge City,1
+2581,Dolton,1
+2582,Demopolis,1
+2583,Deming,1
+2584,Plymouth Meeting,1
+2585,DeRidder,1
+2586,De Smet,1
+2587,Port Jervis,1
+2588,Port Huron,1
+2589,Johns Island,1
+2590,De Soto,1
+2591,DeFuniak Springs,1
+2592,Port Barre,1
+2593,Poquoson,1
+2594,DeSoto,1
+2595,Delmont,1
+2596,Deer Park,1
+2597,Ponchatoula,1
+2598,Del Rio,1
+2599,Pomona,1
+2600,Pomeroy,1
+2601,Delano,1
+2602,Polo,1
+2603,Pollok,1
+2604,Elysburg,1
+2605,Olean,1
+2606,Oldsmar,1
+2607,Fortville,1
+2608,Myerstown,1
+2609,Fosston,1
+2610,Fountain Inn,1
+2611,Fountain Valley,1
+2612,Fowler,1
+2613,Murrysville,1
+2614,Fox Lake,1
+2615,Murray,1
+2616,Fox River Grove,1
+2617,Franklinton,1
+2618,Fredericksburg,1
+2619,Fredonia,1
+2620,Munfordville,1
+2621,Mundelein,1
+2622,Mullins,1
+2623,Mountlake Terrace,1
+2624,Mountain View,1
+2625,French Lick,1
+2626,Mountain Grove,1
+2627,Myersville,1
+2628,Nacogdoches,1
+2629,Fort Dodge,1
+2630,Fort Valley,1
+2631,New Baden,1
+2632,Fort Gratiot,1
+2633,Nevada City,1
+2634,Nevada,1
+2635,Neosho,1
+2636,Nelsonville,1
+2637,Neillsville,1
+2638,Neenah,1
+2639,Needles,1
+2640,Fort Knox,1
+2641,Nebraska City,1
+2642,Navasota,1
+2643,National City,1
+2644,Natchitoches,1
+2645,Fort Leavenworth,1
+2646,Fort Leonard Wood,1
+2647,Fort Mitchell,1
+2648,Fort Oglethorpe,1
+2649,Fort Scott,1
+2650,Mountain City,1
+2651,Mount Washington,1
+2652,Fresh Meadows,1
+2653,Mount Union,1
+2654,Morehead,1
+2655,Moraga,1
+2656,Moosic,1
+2657,Moose Lake,1
+2658,Gatesville,1
+2659,Moorefield,1
+2660,Moody A F B,1
+2661,Gautier,1
+2662,George West,1
+2663,Montgomeryville,1
+2664,Montgomery Village,1
+2665,Gettysburg,1
+2666,Giddings,1
+2667,Montevallo,1
+2668,Monterey Park,1
+2669,Montebello,1
+2670,Monteagle,1
+2671,Monte Vista,1
+2672,Montclair,1
+2673,Gardner,1
+2674,Morgan City,1
+2675,Morgan Hill,1
+2676,Mosheim,1
+2677,Mount Shasta,1
+2678,Mount Prospect,1
+2679,Mount Pocono,1
+2680,Friendswood,1
+2681,Mount Olive,1
+2682,Mount Jackson,1
+2683,Mount Gilead,1
+2684,Fulton,1
+2685,Fyffe,1
+2686,Morganfield,1
+2687,Gaffney,1
+2688,Morton,1
+2689,Morrisville,1
+2690,Galax,1
+2691,Morrison,1
+2692,Galion,1
+2693,Gallipolis,1
+2694,Galveston,1
+2695,Fort Eustis,1
+2696,New Bremen,1
+2697,Old Fort,1
+2698,Oak Harbor,1
+2699,Eupora,1
+2700,Novato,1
+2701,Notre Dame,1
+2702,Norton,1
+2703,Northwood,1
+2704,Excelsior Springs,1
+2705,Exeter,1
+2706,North Wilkesboro,1
+2707,North Wales,1
+2708,North Vernon,1
+2709,North Salt Lake,1
+2710,North Ridgeville,1
+2711,Exton,1
+2712,North Pole,1
+2713,Fairbury,1
+2714,Fairland,1
+2715,Fairmount,1
+2716,Falkville,1
+2717,Falling Waters,1
+2718,Oak Forest,1
+2719,Euclid,1
+2720,Fort Belvoir,1
+2721,Etters,1
+2722,Okoboji,1
+2723,Okmulgee,1
+2724,Endicott,1
+2725,Okemos,1
+2726,Enid,1
+2727,Ogdensburg,1
+2728,Ogallala,1
+2729,Oelwein,1
+2730,Ephrata,1
+2731,Oconto,1
+2732,Oconomowoc,1
+2733,Erath,1
+2734,Erwin,1
+2735,Ocean Shores,1
+2736,Etna,1
+2737,Oakton,1
+2738,Etna Green,1
+2739,Oakdale,1
+2740,Oak Ridge,1
+2741,North Lewisburg,1
+2742,North Jackson,1
+2743,Falmouth,1
+2744,North Hills,1
+2745,Newport Beach,1
+2746,Floyds Knobs,1
+2747,Newcastle,1
+2748,Newbury Park,1
+2749,Fogelsville,1
+2750,Folkston,1
+2751,Newberg,1
+2752,Newaygo,1
+2753,Follansbee,1
+2754,Folly Beach,1
+2755,New Roads,1
+2756,New Richmond,1
+2757,New Oxford,1
+2758,Ford City,1
+2759,New London,1
+2760,New Lenox,1
+2761,Forest Hills,1
+2762,Forest Park,1
+2763,Forestville,1
+2764,Floyd,1
+2765,Florissant,1
+2766,Nicholasville,1
+2767,Fergus Falls,1
+2768,North Highlands,1
+2769,Farmerville,1
+2770,Fayette,1
+2771,Fenwick Island,1
+2772,North Baltimore,1
+2773,North Aurora,1
+2774,North Augusta,1
+2775,Ferdinand,1
+2776,Fernandina Beach,1
+2777,Flomaton,1
+2778,Norcross,1
+2779,Ferris,1
+2780,Nokomis,1
+2781,Finksburg,1
+2782,Noble,1
+2783,Flagler,1
+2784,Nitro,1
+2785,Nine Mile Falls,1
+2786,Zion,1
