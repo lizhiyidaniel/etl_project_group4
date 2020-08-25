@@ -1,0 +1,971 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "from sqlalchemy import create_engine\n",
+    "import pymysql\n",
+    "pymysql.install_as_MySQLdb()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Indicator Category</th>\n",
+       "      <th>Indicator</th>\n",
+       "      <th>Year</th>\n",
+       "      <th>Gender</th>\n",
+       "      <th>Race/ Ethnicity</th>\n",
+       "      <th>Value</th>\n",
+       "      <th>Place</th>\n",
+       "      <th>BCHC Requested Methodology</th>\n",
+       "      <th>Source</th>\n",
+       "      <th>Methods</th>\n",
+       "      <th>Notes</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>HIV/AIDS</td>\n",
+       "      <td>AIDS Diagnoses Rate (Per 100,000 people)</td>\n",
+       "      <td>2013</td>\n",
+       "      <td>Both</td>\n",
+       "      <td>All</td>\n",
+       "      <td>30.4</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>AIDS cases diagnosed in 2012, 2013, 2014 (as a...</td>\n",
+       "      <td>Diagnoses numbers were obtained from the Georg...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>HIV/AIDS</td>\n",
+       "      <td>AIDS Diagnoses Rate (Per 100,000 people)</td>\n",
+       "      <td>2012</td>\n",
+       "      <td>Both</td>\n",
+       "      <td>All</td>\n",
+       "      <td>39.6</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>AIDS cases diagnosed in 2012, 2013, 2014 (as a...</td>\n",
+       "      <td>Diagnoses numbers were obtained from the Georg...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>HIV/AIDS</td>\n",
+       "      <td>AIDS Diagnoses Rate (Per 100,000 people)</td>\n",
+       "      <td>2011</td>\n",
+       "      <td>Both</td>\n",
+       "      <td>All</td>\n",
+       "      <td>41.7</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>AIDS cases diagnosed in 2012, 2013, 2014 (as a...</td>\n",
+       "      <td>Diagnoses numbers were obtained from the Georg...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Cancer</td>\n",
+       "      <td>All Types of Cancer Mortality Rate (Age-Adjust...</td>\n",
+       "      <td>2013</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>All</td>\n",
+       "      <td>195.8</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>2012, 2013, 2014; per 100,000 population using...</td>\n",
+       "      <td>National Center for Health Statistics (NCHS), CDC</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Cancer</td>\n",
+       "      <td>All Types of Cancer Mortality Rate (Age-Adjust...</td>\n",
+       "      <td>2013</td>\n",
+       "      <td>Female</td>\n",
+       "      <td>All</td>\n",
+       "      <td>135.5</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>2012, 2013, 2014; per 100,000 population using...</td>\n",
+       "      <td>National Center for Health Statistics (NCHS), CDC</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  Indicator Category                                          Indicator  Year  \\\n",
+       "0           HIV/AIDS           AIDS Diagnoses Rate (Per 100,000 people)  2013   \n",
+       "1           HIV/AIDS           AIDS Diagnoses Rate (Per 100,000 people)  2012   \n",
+       "2           HIV/AIDS           AIDS Diagnoses Rate (Per 100,000 people)  2011   \n",
+       "3             Cancer  All Types of Cancer Mortality Rate (Age-Adjust...  2013   \n",
+       "4             Cancer  All Types of Cancer Mortality Rate (Age-Adjust...  2013   \n",
+       "\n",
+       "   Gender Race/ Ethnicity  Value                        Place  \\\n",
+       "0    Both             All   30.4  Atlanta (Fulton County), GA   \n",
+       "1    Both             All   39.6  Atlanta (Fulton County), GA   \n",
+       "2    Both             All   41.7  Atlanta (Fulton County), GA   \n",
+       "3    Male             All  195.8  Atlanta (Fulton County), GA   \n",
+       "4  Female             All  135.5  Atlanta (Fulton County), GA   \n",
+       "\n",
+       "                          BCHC Requested Methodology  \\\n",
+       "0  AIDS cases diagnosed in 2012, 2013, 2014 (as a...   \n",
+       "1  AIDS cases diagnosed in 2012, 2013, 2014 (as a...   \n",
+       "2  AIDS cases diagnosed in 2012, 2013, 2014 (as a...   \n",
+       "3  2012, 2013, 2014; per 100,000 population using...   \n",
+       "4  2012, 2013, 2014; per 100,000 population using...   \n",
+       "\n",
+       "                                              Source Methods Notes  \n",
+       "0  Diagnoses numbers were obtained from the Georg...     NaN   NaN  \n",
+       "1  Diagnoses numbers were obtained from the Georg...     NaN   NaN  \n",
+       "2  Diagnoses numbers were obtained from the Georg...     NaN   NaN  \n",
+       "3  National Center for Health Statistics (NCHS), CDC     NaN   NaN  \n",
+       "4  National Center for Health Statistics (NCHS), CDC     NaN   NaN  "
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "csv_file = 'Big_Cities_Health_Data_Inventory.csv'\n",
+    "health_df = pd.read_csv(csv_file)\n",
+    "health_df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Indicator Category</th>\n",
+       "      <th>Indicator</th>\n",
+       "      <th>Place</th>\n",
+       "      <th>Value</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>HIV/AIDS</td>\n",
+       "      <td>AIDS Diagnoses Rate (Per 100,000 people)</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>30.4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>HIV/AIDS</td>\n",
+       "      <td>AIDS Diagnoses Rate (Per 100,000 people)</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>39.6</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>HIV/AIDS</td>\n",
+       "      <td>AIDS Diagnoses Rate (Per 100,000 people)</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>41.7</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Cancer</td>\n",
+       "      <td>All Types of Cancer Mortality Rate (Age-Adjust...</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>195.8</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Cancer</td>\n",
+       "      <td>All Types of Cancer Mortality Rate (Age-Adjust...</td>\n",
+       "      <td>Atlanta (Fulton County), GA</td>\n",
+       "      <td>135.5</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  Indicator Category                                          Indicator  \\\n",
+       "0           HIV/AIDS           AIDS Diagnoses Rate (Per 100,000 people)   \n",
+       "1           HIV/AIDS           AIDS Diagnoses Rate (Per 100,000 people)   \n",
+       "2           HIV/AIDS           AIDS Diagnoses Rate (Per 100,000 people)   \n",
+       "3             Cancer  All Types of Cancer Mortality Rate (Age-Adjust...   \n",
+       "4             Cancer  All Types of Cancer Mortality Rate (Age-Adjust...   \n",
+       "\n",
+       "                         Place  Value  \n",
+       "0  Atlanta (Fulton County), GA   30.4  \n",
+       "1  Atlanta (Fulton County), GA   39.6  \n",
+       "2  Atlanta (Fulton County), GA   41.7  \n",
+       "3  Atlanta (Fulton County), GA  195.8  \n",
+       "4  Atlanta (Fulton County), GA  135.5  "
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c_health_df = health_df[['Indicator Category', 'Indicator', 'Place', 'Value']]\n",
+    "c_health_df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "HIV/AIDS                                    2177\n",
+       "Injury and Violence                         1916\n",
+       "Nutrition, Physical Activity, & Obesity     1841\n",
+       "Infectious Disease                          1486\n",
+       "Cancer                                      1432\n",
+       "Maternal and Child Health                   1323\n",
+       "Behavioral Health/Substance Abuse            983\n",
+       "Food Safety                                  874\n",
+       "Life Expectancy and Death Rate (Overall)     544\n",
+       "Demographics                                 504\n",
+       "Tobacco                                      432\n",
+       "Name: Indicator Category, dtype: int64"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c_health_df[\"Indicator Category\"].value_counts()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "obese_df = c_health_df[c_health_df['Indicator Category'] =='Nutrition, Physical Activity, & Obesity']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Heart Disease Mortality Rate (Age-Adjusted; Per 100,000 people)                      554\n",
+       "Diabetes Mortality Rate (Age-Adjusted; Per 100,000 people)                           538\n",
+       "Percent of Adults Who Are Obese                                                      253\n",
+       "Percent of High School Students Who Meet CDC-Recommended Physical Activity Levels    181\n",
+       "Percent of Adults Who Meet CDC-Recommended Physical Activity Levels                  181\n",
+       "Percent of High School Students Who Are Obese                                        134\n",
+       "Name: Indicator, dtype: int64"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "obese_df['Indicator'].value_counts()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "adult_obese = obese_df[obese_df['Indicator']== 'Percent of Adults Who Are Obese']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "new = adult_obese[\"Place\"].str.split(\",\", n = 1, expand = True) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "<ipython-input-9-9dc9160fd3e8>:1: SettingWithCopyWarning: \n",
+      "A value is trying to be set on a copy of a slice from a DataFrame.\n",
+      "Try using .loc[row_indexer,col_indexer] = value instead\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "  adult_obese[\"city\"]= new[0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "adult_obese[\"city\"]= new[0] "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "<ipython-input-10-84cd1b924c00>:1: SettingWithCopyWarning: \n",
+      "A value is trying to be set on a copy of a slice from a DataFrame.\n",
+      "Try using .loc[row_indexer,col_indexer] = value instead\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "  adult_obese[\"state\"]= new[1]\n"
+     ]
+    }
+   ],
+   "source": [
+    "adult_obese[\"state\"]= new[1] "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/Users/jmbruner37/opt/anaconda3/envs/PythonData/lib/python3.8/site-packages/pandas/core/frame.py:4157: SettingWithCopyWarning: \n",
+      "A value is trying to be set on a copy of a slice from a DataFrame\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "  return super().drop(\n"
+     ]
+    }
+   ],
+   "source": [
+    "adult_obese.drop(columns=['Place'],inplace=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Indicator Category</th>\n",
+       "      <th>Indicator</th>\n",
+       "      <th>Value</th>\n",
+       "      <th>city</th>\n",
+       "      <th>state</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>177</th>\n",
+       "      <td>Nutrition, Physical Activity, &amp; Obesity</td>\n",
+       "      <td>Percent of Adults Who Are Obese</td>\n",
+       "      <td>22.8</td>\n",
+       "      <td>Atlanta (Fulton County)</td>\n",
+       "      <td>GA</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>178</th>\n",
+       "      <td>Nutrition, Physical Activity, &amp; Obesity</td>\n",
+       "      <td>Percent of Adults Who Are Obese</td>\n",
+       "      <td>17.9</td>\n",
+       "      <td>Atlanta (Fulton County)</td>\n",
+       "      <td>GA</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>179</th>\n",
+       "      <td>Nutrition, Physical Activity, &amp; Obesity</td>\n",
+       "      <td>Percent of Adults Who Are Obese</td>\n",
+       "      <td>25.4</td>\n",
+       "      <td>Atlanta (Fulton County)</td>\n",
+       "      <td>GA</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>180</th>\n",
+       "      <td>Nutrition, Physical Activity, &amp; Obesity</td>\n",
+       "      <td>Percent of Adults Who Are Obese</td>\n",
+       "      <td>16.6</td>\n",
+       "      <td>Atlanta (Fulton County)</td>\n",
+       "      <td>GA</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>181</th>\n",
+       "      <td>Nutrition, Physical Activity, &amp; Obesity</td>\n",
+       "      <td>Percent of Adults Who Are Obese</td>\n",
+       "      <td>23.7</td>\n",
+       "      <td>Atlanta (Fulton County)</td>\n",
+       "      <td>GA</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                          Indicator Category                        Indicator  \\\n",
+       "177  Nutrition, Physical Activity, & Obesity  Percent of Adults Who Are Obese   \n",
+       "178  Nutrition, Physical Activity, & Obesity  Percent of Adults Who Are Obese   \n",
+       "179  Nutrition, Physical Activity, & Obesity  Percent of Adults Who Are Obese   \n",
+       "180  Nutrition, Physical Activity, & Obesity  Percent of Adults Who Are Obese   \n",
+       "181  Nutrition, Physical Activity, & Obesity  Percent of Adults Who Are Obese   \n",
+       "\n",
+       "     Value                     city state  \n",
+       "177   22.8  Atlanta (Fulton County)    GA  \n",
+       "178   17.9  Atlanta (Fulton County)    GA  \n",
+       "179   25.4  Atlanta (Fulton County)    GA  \n",
+       "180   16.6  Atlanta (Fulton County)    GA  \n",
+       "181   23.7  Atlanta (Fulton County)    GA  "
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "adult_obese.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Seattle                        26\n",
+       "New York                       24\n",
+       "Washington                     22\n",
+       "Denver                         18\n",
+       "Phoenix                        17\n",
+       "Philadelphia                   16\n",
+       "Atlanta (Fulton County)        15\n",
+       "Baltimore                      15\n",
+       "Boston                         13\n",
+       "Miami (Miami-Dade County)      12\n",
+       "Chicago                        12\n",
+       "San Diego County                9\n",
+       "Los Angeles                     7\n",
+       "San Jose                        7\n",
+       "Las Vegas (Clark County)        7\n",
+       "Oakland                         6\n",
+       "U.S. Total                      6\n",
+       "Houston                         5\n",
+       "San Antonio                     5\n",
+       "Detroit                         4\n",
+       "Fort Worth (Tarrant County)     3\n",
+       "Minneapolis                     2\n",
+       "Long Beach                      2\n",
+       "Name: city, dtype: int64"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "adult_obese['city'].value_counts()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "<ipython-input-19-cf16e4b9f3fc>:2: SettingWithCopyWarning: \n",
+      "A value is trying to be set on a copy of a slice from a DataFrame.\n",
+      "Try using .loc[row_indexer,col_indexer] = value instead\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "  adult_obese['city'] = adult_obese['city'].replace({'Atlanta (Fulton County)': 'Atlanta', 'Miami (Miami-Dade County)': 'Miami', 'San Diego County': 'San Diego', 'Las Vegas (Clark County)' : 'Las Vegas', 'Fort Worth (Tarrant County)': 'Fort Worth'})\n"
+     ]
+    }
+   ],
+   "source": [
+    "#adult_obese['city'] = adult_obese['city'].replace(['Atlanta (Fulton County)','Miami (Miami-Dade County)','San Diego County', 'Las Vegas (Clark County)', 'Fort Worth (Tarrant County)' ],['Atlanta','Miami','San Diego', 'Las Vegas', 'Fort Worth'])\n",
+    "adult_obese['city'] = adult_obese['city'].replace({'Atlanta (Fulton County)': 'Atlanta', 'Miami (Miami-Dade County)': 'Miami', 'San Diego County': 'San Diego', 'Las Vegas (Clark County)' : 'Las Vegas', 'Fort Worth (Tarrant County)': 'Fort Worth'})"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Seattle         26\n",
+       "New York        24\n",
+       "Washington      22\n",
+       "Denver          18\n",
+       "Phoenix         17\n",
+       "Philadelphia    16\n",
+       "Atlanta         15\n",
+       "Baltimore       15\n",
+       "Boston          13\n",
+       "Chicago         12\n",
+       "Miami           12\n",
+       "San Diego        9\n",
+       "Las Vegas        7\n",
+       "San Jose         7\n",
+       "Los Angeles      7\n",
+       "U.S. Total       6\n",
+       "Oakland          6\n",
+       "San Antonio      5\n",
+       "Houston          5\n",
+       "Detroit          4\n",
+       "Fort Worth       3\n",
+       "Minneapolis      2\n",
+       "Long Beach       2\n",
+       "Name: city, dtype: int64"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "adult_obese['city'].value_counts()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "clean_obese = adult_obese.drop(columns=['Indicator Category', 'Indicator', 'state'])\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>percent_obese_adults</th>\n",
+       "      <th>city</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>177</th>\n",
+       "      <td>22.8</td>\n",
+       "      <td>Atlanta</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>178</th>\n",
+       "      <td>17.9</td>\n",
+       "      <td>Atlanta</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>179</th>\n",
+       "      <td>25.4</td>\n",
+       "      <td>Atlanta</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>180</th>\n",
+       "      <td>16.6</td>\n",
+       "      <td>Atlanta</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>181</th>\n",
+       "      <td>23.7</td>\n",
+       "      <td>Atlanta</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>...</th>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>12554</th>\n",
+       "      <td>9.6</td>\n",
+       "      <td>Washington</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>12555</th>\n",
+       "      <td>10.7</td>\n",
+       "      <td>Washington</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>12556</th>\n",
+       "      <td>9.8</td>\n",
+       "      <td>Washington</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>13281</th>\n",
+       "      <td>22.8</td>\n",
+       "      <td>Long Beach</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>13306</th>\n",
+       "      <td>26.2</td>\n",
+       "      <td>Long Beach</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>253 rows × 2 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "       percent_obese_adults        city\n",
+       "177                    22.8     Atlanta\n",
+       "178                    17.9     Atlanta\n",
+       "179                    25.4     Atlanta\n",
+       "180                    16.6     Atlanta\n",
+       "181                    23.7     Atlanta\n",
+       "...                     ...         ...\n",
+       "12554                   9.6  Washington\n",
+       "12555                  10.7  Washington\n",
+       "12556                   9.8  Washington\n",
+       "13281                  22.8  Long Beach\n",
+       "13306                  26.2  Long Beach\n",
+       "\n",
+       "[253 rows x 2 columns]"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "clean_obese.rename(columns={'Value': 'percent_obese_adults'})\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "avg_obese = clean_obese.groupby(['city'])['Value'].mean()\n",
+    "#df.groupby('A')['B'].mean()\n",
+    "#df.groupby(['id','mth'])['cost'].sum()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Value</th>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>city</th>\n",
+       "      <th></th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>Atlanta</th>\n",
+       "      <td>22.880000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Baltimore</th>\n",
+       "      <td>31.793333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Boston</th>\n",
+       "      <td>22.615385</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Chicago</th>\n",
+       "      <td>28.408333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Denver</th>\n",
+       "      <td>22.266667</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Detroit</th>\n",
+       "      <td>40.025000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Fort Worth</th>\n",
+       "      <td>30.733333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Houston</th>\n",
+       "      <td>31.380000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Las Vegas</th>\n",
+       "      <td>27.728571</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Long Beach</th>\n",
+       "      <td>24.500000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Los Angeles</th>\n",
+       "      <td>20.685714</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Miami</th>\n",
+       "      <td>26.775000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Minneapolis</th>\n",
+       "      <td>21.300000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>New York</th>\n",
+       "      <td>23.195833</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Oakland</th>\n",
+       "      <td>25.683333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Philadelphia</th>\n",
+       "      <td>32.875000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Phoenix</th>\n",
+       "      <td>27.170588</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>San Antonio</th>\n",
+       "      <td>33.860000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>San Diego</th>\n",
+       "      <td>23.666667</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>San Jose</th>\n",
+       "      <td>22.857143</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Seattle</th>\n",
+       "      <td>22.615385</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>U.S. Total</th>\n",
+       "      <td>37.900000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Washington</th>\n",
+       "      <td>22.286364</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                  Value\n",
+       "city                   \n",
+       "Atlanta       22.880000\n",
+       "Baltimore     31.793333\n",
+       "Boston        22.615385\n",
+       "Chicago       28.408333\n",
+       "Denver        22.266667\n",
+       "Detroit       40.025000\n",
+       "Fort Worth    30.733333\n",
+       "Houston       31.380000\n",
+       "Las Vegas     27.728571\n",
+       "Long Beach    24.500000\n",
+       "Los Angeles   20.685714\n",
+       "Miami         26.775000\n",
+       "Minneapolis   21.300000\n",
+       "New York      23.195833\n",
+       "Oakland       25.683333\n",
+       "Philadelphia  32.875000\n",
+       "Phoenix       27.170588\n",
+       "San Antonio   33.860000\n",
+       "San Diego     23.666667\n",
+       "San Jose      22.857143\n",
+       "Seattle       22.615385\n",
+       "U.S. Total    37.900000\n",
+       "Washington    22.286364"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "avg_obese.to_frame()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "avg_obese.to_csv('avg_obese_city')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
